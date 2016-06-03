@@ -1,5 +1,10 @@
 package lineparser;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.Collections;
+
 public class LineFIS {
 	FISid fisId;
 	int stageNum;
@@ -80,19 +85,22 @@ public class LineFIS {
         String [] ret = str.split(separator);
 
         switch (exactAtLeastAtMost.toLowerCase() ) {
-                case "exatly":
+                case "exactly":
                         if (ret.length != expectedArraySize) {
-                                throw new Exception("Expecting " + exactAtLeastAtMost + " "  + separator + "s but got " + (ret.length - 1) );
+                                throw new Exception("Expecting " + exactAtLeastAtMost +  " " + expectedArraySize  + separator + "s but got " + (ret.length - 1) );
                         }
                         break;
                 case "atleast" :
-                        if (ret.length >= expectedArraySize) {
-                                throw new Exception("Expecting " + exactAtLeastAtMost + " "  + separator + "s but got " + (ret.length - 1) );
+                        if ( ret.length < (expectedArraySize)) {
+                                throw new Exception("Expecting " + exactAtLeastAtMost + " "  + expectedArraySize + separator + "s but got " + (ret.length - 1) );
                         }
                         break;
                 case "atmost" :
-                        if (ret.length <= expectedArraySize) {
-                                throw new Exception("Expecting " + exactAtLeastAtMost + " "  + separator + "s but got " + (ret.length - 1) );
+                	    //System.out.println("ret.length = " + ret.length);
+                	    //System.out.println("expectedArraySize = " + expectedArraySize);
+                	    //System.out.println( str );
+                        if ( (ret.length > expectedArraySize) ) {
+                                throw new Exception("Expecting " + exactAtLeastAtMost + " "  + expectedArraySize + separator + "s but got " + ret.length );
                         }
                         break;
                 default:
@@ -111,7 +119,7 @@ public class LineFIS {
 		for (int i = 0; i < subLineLength; i++) {
 			boolean isPresent = false;
 			for (int j = 0; j < myLineLength; j++) {
-				if (subLine.getAllDimVal()[j].equals(subLine.getAllDimVal()[i]) == true) {
+				if (this.getAllDimVal()[j].equals(subLine.getAllDimVal()[i]) == true) {
 					isPresent = true;
 					break;
 				}
@@ -122,5 +130,78 @@ public class LineFIS {
 		}
 		return true;
 	}
+	
+	public DimVal [] getExtraDimValInLongerLineFIS (LineFIS subLine) throws Exception{
+		ArrayList<DimVal> retDimValArrayList = new ArrayList<DimVal>();
+		int myLineLength = strRepDimVal.length;
+		int subLineLength = subLine.getAllDimVal().length;
+		//ArrayList<Integer> innerLoopArrayList = new ArrayList<Integer>();
+		
+		int outerLoop = 0;
+		int innerLoop = 0;
+		String [] outerLoopStrArr = null;
+		String [] innerLoopStrArr = null;
+		
+		if (myLineLength >  subLineLength) {
+			outerLoop = myLineLength;
+			outerLoopStrArr = strRepDimVal;
+			innerLoop = subLineLength;
+			innerLoopStrArr = subLine.getAllDimVal();
+		} else {
+			outerLoop = subLineLength;
+			outerLoopStrArr = subLine.getAllDimVal();
+			innerLoop = myLineLength;
+			innerLoopStrArr = strRepDimVal;
+		}
+		
+		for (int i = 0; i < outerLoop; i++) { // smaller loop
+			boolean isPresent = false;
+			for (int j = 0; j < innerLoop; j++) {
+				if (innerLoopStrArr[j].equals(outerLoopStrArr[i]) == true) {
+					isPresent = true;
+					break;
+				}
+			}
+			if (isPresent == false) {
+				String [] arrDimVal1 = outerLoopStrArr[i].split(Character.toString('\001'));
+				String dim1 = arrDimVal1[0];
+				String val1 = arrDimVal1[1];
+				retDimValArrayList.add(new DimVal(dim1,val1));
+			}
+		}
+		DimVal [] arrDV = new DimVal[retDimValArrayList.size()];
+		retDimValArrayList.toArray(arrDV);
+		return arrDV;
+	}
+	
+	
+	public DimVal [] getExtraDimVal (LineFIS subLine) throws Exception{
+		
+		Set<String> s1 = new HashSet<String>();
+		Collections.addAll(s1, strRepDimVal);
+		
+		Set<String> s2 = new HashSet<String>();
+		Collections.addAll(s2, subLine.getAllDimVal());
+
+		Set<String> difference1 = new HashSet<String>(s1);
+		difference1.removeAll(s2);
+		
+		Set<String> difference2 = new HashSet<String>(s2);
+		difference2.removeAll(s1);
+		difference2.addAll(difference1);
+		String[] ret = difference2.toArray(new String[difference2.size()]);
+
+		DimVal [] arrDV = new DimVal[ret.length];
+		for (int i = 0; i < ret.length; i++) {
+			String [] tmp = ret[i].split(Character.toString('\001'));
+			arrDV[i] = new DimVal(tmp[0], tmp[1]);
+		}
+		return arrDV;
+	}
+	
+	
+	
+	
+	
 	
 }

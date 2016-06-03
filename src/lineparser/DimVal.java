@@ -31,10 +31,11 @@ public class DimVal  {
 		return retVal;
 	}
 	
+	@Override
 	public String toString() {
 		StringBuilder retVal = new StringBuilder();
 		retVal.append(dimensionName);
-		retVal.append("-");
+		retVal.append(Character.toString('\001'));
 		retVal.append(dimensionValue);
 		return retVal.toString();
 	}
