@@ -44,10 +44,12 @@ public class StageLines {
 		lItr = s.getListIterator();
 		while (lItr.hasNext()) {
 			//DimVal [] v = lItr.next().getExtraDimValInLongerLineFIS(toComp);
-			DimVal [] v =lItr.next().getExtraDimVal(toComp);
-			for (int i = 0; i < v.length; i++) {
-				if (v[i] != null) {
-					System.out.println(v[i].toString());
+			ArrayList<DimVal> v = new ArrayList<DimVal>();
+			boolean ret = lItr.next().getExtraDimVal(toComp, v);
+			System.out.println(ret);
+			for (int i = 0; i < v.size(); i++) {
+				if (v.get(i) != null) {
+					System.out.println(v.get(i).toString());
 				}
 			}
 		}

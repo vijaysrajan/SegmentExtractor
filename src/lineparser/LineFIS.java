@@ -175,8 +175,9 @@ public class LineFIS {
 	}
 	
 	
-	public DimVal [] getExtraDimVal (LineFIS subLine) throws Exception{
+	public boolean getExtraDimVal (LineFIS subLine, ArrayList<DimVal> retDimVal) throws Exception{
 		
+		boolean retBool = false;
 		Set<String> s1 = new HashSet<String>();
 		Collections.addAll(s1, strRepDimVal);
 		
@@ -188,15 +189,19 @@ public class LineFIS {
 		
 		Set<String> difference2 = new HashSet<String>(s2);
 		difference2.removeAll(s1);
+		if (difference2.isEmpty()) {
+			retBool = true;
+		}
 		difference2.addAll(difference1);
 		String[] ret = difference2.toArray(new String[difference2.size()]);
 
-		DimVal [] arrDV = new DimVal[ret.length];
+		//DimVal [] arrDV = new DimVal[ret.length];
 		for (int i = 0; i < ret.length; i++) {
 			String [] tmp = ret[i].split(Character.toString('\001'));
-			arrDV[i] = new DimVal(tmp[0], tmp[1]);
+			retDimVal.add(new DimVal(tmp[0], tmp[1]));
 		}
-		return arrDV;
+		
+		return retBool;
 	}
 	
 	
