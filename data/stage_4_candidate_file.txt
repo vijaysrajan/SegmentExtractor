@@ -1,0 +1,672 @@
+4browserChromecountryUnited StatesnetspeedTypeCS_broadbandspaceId1183300002beacon74961.0
+4browserChromecountryUnited StatesnetspeedTypeCS_broadbandspaceId1183318087beacon37261.0
+4browserChromecountryUnited StatesnetspeedTypeCS_broadbandosWindows 7beacon121295.0
+4browserChromecountryUnited StatesnetspeedTypeCS_broadbandosOtherbeacon15048.0
+4browserChromecountryUnited StatesnetspeedTypeCS_broadbandosMac OS Xbeacon11567.0
+4browserChromecountryUnited StatesnetspeedTypeCS_broadbandosWindows XPbeacon10454.0
+4browserChromecountryUnited StatesnetspeedTypeCS_cablespaceId1183300002beacon54786.0
+4browserChromecountryUnited StatesnetspeedTypeCS_cablespaceId1183318087beacon32420.0
+4browserChromecountryUnited StatesnetspeedTypeCS_cableosWindows 7beacon79772.0
+4browserChromecountryUnited StatesnetspeedTypeCS_cableosOtherbeacon19226.0
+4browserChromecountryUnited StatesnetspeedTypeCS_cableosMac OS Xbeacon11904.0
+4browserChromecountryUnited StatesnetspeedTypeCS_xdslspaceId1183300002beacon14813.0
+4browserChromecountryUnited StatesnetspeedTypeCS_xdslspaceId1183318087beacon10625.0
+4browserChromecountryUnited StatesnetspeedTypeCS_xdslosWindows 7beacon22944.0
+4browserChromecountryUnited StatesnetspeedTypeCS_t1osWindows 7beacon10494.0
+4browserChromebucketgs500countryUnited StatesnetspeedTypeCS_broadbandbeacon20977.0
+4browserChromebucketgs500countryUnited StatesnetspeedTypeCS_cablebeacon17437.0
+4browserChromebucketgs500countryUnited StatesspaceId1183300002beacon21539.0
+4browserChromebucketgs500countryUnited StatesspaceId1183318087beacon12288.0
+4browserChromebucketgs500countryUnited StatesdeviceTypeDesktopbeacon45689.0
+4browserChromebucketgs500countryUnited StatesosWindows 7beacon30180.0
+4browserChromebucketnot setcountryUnited StatesnetspeedTypeCS_broadbandbeacon26953.0
+4browserChromebucketnot setcountryUnited StatesnetspeedTypeCS_cablebeacon22295.0
+4browserChromebucketnot setcountryUnited StatesspaceId95993639beacon13837.0
+4browserChromebucketnot setcountryUnited StatesspaceId1183318750beacon18678.0
+4browserChromebucketnot setcountryUnited StatesdeviceTypeDesktopbeacon57549.0
+4browserChromebucketnot setcountryUnited StatesosWindows 7beacon35289.0
+4browserChromebucketyescountryUnited StatesnetspeedTypeCS_broadbandbeacon52755.0
+4browserChromebucketyescountryUnited StatesnetspeedTypeCS_cablebeacon41193.0
+4browserChromebucketyescountryUnited StatesnetspeedTypeCS_xdslbeacon14524.0
+4browserChromebucketyescountryUnited StatesspaceId1183300002beacon54252.0
+4browserChromebucketyescountryUnited StatesspaceId1183318087beacon30995.0
+4browserChromebucketyescountryUnited StatesdeviceTypeDesktopbeacon114387.0
+4browserChromebucketyescountryUnited StatesosWindows 7beacon73633.0
+4browserChromebucketyescountryUnited StatesosOtherbeacon13129.0
+4browserChromebucket512012countryUnited StatesnetspeedTypeCS_broadbandbeacon23421.0
+4browserChromebucket512012countryUnited StatesnetspeedTypeCS_cablebeacon17414.0
+4browserChromebucket512012countryUnited StatesspaceId1183300002beacon23627.0
+4browserChromebucket512012countryUnited StatesspaceId1183318087beacon12584.0
+4browserChromebucket512012countryUnited StatesdeviceTypeDesktopbeacon48313.0
+4browserChromebucket512012countryUnited StatesosWindows 7beacon31720.0
+4browserChromebucket512027countryUnited StatesnetspeedTypeCS_broadbandbeacon20955.0
+4browserChromebucket512027countryUnited StatesnetspeedTypeCS_cablebeacon16978.0
+4browserChromebucket512027countryUnited StatesspaceId1183300002beacon21417.0
+4browserChromebucket512027countryUnited StatesspaceId1183318087beacon12118.0
+4browserChromebucket512027countryUnited StatesdeviceTypeDesktopbeacon45042.0
+4browserChromebucket512027countryUnited StatesosWindows 7beacon29181.0
+4browserChromebucket512019countryUnited StatesdeviceTypeDesktopbeacon12261.0
+4browserChromecountryUnited StatesosWindows 7spaceId1183300002beacon101647.0
+4browserChromecountryUnited StatesosWindows 7spaceId1183318087beacon53795.0
+4browserChromecountryUnited StatesosWindows XPspaceId1183300002beacon10104.0
+4browserChromecountryUnited StatesosMac OS XspaceId1183300002beacon11054.0
+4browserChromebucketgs500netspeedTypeCS_broadbandspaceId1183300002beacon12836.0
+4browserChromebucketgs500netspeedTypeCS_broadbandosWindows 7beacon17884.0
+4browserChromebucketgs500netspeedTypeCS_cableosWindows 7beacon11221.0
+4browserChromebucketyesnetspeedTypeCS_broadbandspaceId1183300002beacon33040.0
+4browserChromebucketyesnetspeedTypeCS_broadbandspaceId1183318087beacon15109.0
+4browserChromebucketyesnetspeedTypeCS_broadbandosWindows 7beacon44203.0
+4browserChromebucketnot setnetspeedTypeCS_broadbandspaceId1183318750beacon10097.0
+4browserChromebucketnot setnetspeedTypeCS_broadbandosWindows 7beacon42125.0
+4browserChromebucketnot setnetspeedTypeCS_cableosWindows 7beacon16182.0
+4browserChromebucketyesnetspeedTypeCS_cablespaceId1183300002beacon20571.0
+4browserChromebucketyesnetspeedTypeCS_cablespaceId1183318087beacon11517.0
+4browserChromebucketyesnetspeedTypeCS_cableosWindows 7beacon25448.0
+4browserChromebucket512012netspeedTypeCS_broadbandspaceId1183300002beacon15263.0
+4browserChromebucket512012netspeedTypeCS_broadbandosWindows 7beacon19897.0
+4browserChromebucket512012netspeedTypeCS_cableosWindows 7beacon10918.0
+4browserChromebucket512027netspeedTypeCS_cableosWindows 7beacon10312.0
+4browserChromebucket512027netspeedTypeCS_broadbandspaceId1183300002beacon13395.0
+4browserChromebucket512027netspeedTypeCS_broadbandosWindows 7beacon17950.0
+4browserChromebucketnot setcountryIndiadeviceTypeDesktopbeacon11847.0
+4browserChromebucketgs500osWindows 7spaceId1183300002beacon17023.0
+4browserChromebucketnot setosWindows 7spaceId95993639beacon10427.0
+4browserChromebucketnot setosWindows 7spaceId1183318750beacon11538.0
+4browserChromebucketyesosWindows 7spaceId1183300002beacon41906.0
+4browserChromebucketyesosWindows 7spaceId1183318087beacon20840.0
+4browserChromebucket512012osWindows 7spaceId1183300002beacon18455.0
+4browserChromebucket512027osWindows 7spaceId1183300002beacon16799.0
+4browserChromenetspeedTypeCS_broadbandosWindows 7spaceId1183300002beacon66354.0
+4browserChromenetspeedTypeCS_broadbandosWindows 7spaceId1183318087beacon28830.0
+4browserChromenetspeedTypeCS_cableosWindows 7spaceId1183300002beacon35223.0
+4browserChromenetspeedTypeCS_cableosWindows 7spaceId1183318087beacon19284.0
+4browserChromenetspeedTypeCS_xdslosWindows 7spaceId1183300002beacon11064.0
+4browserChromebucketnot setcountryHong KongnetspeedTypeCS_broadbandbeacon10442.0
+4browserChromebucketnot setcountryHong KongdeviceTypeDesktopbeacon11019.0
+4browserChromecountryUnited StatesosOtherspaceId1183300002beacon15543.0
+4browserChromecountryUnited StatesosOtherspaceId1183318087beacon10712.0
+4bucketnot setcountryUnited StatesnetspeedTypeCS_broadbandspaceId95993639beacon16935.0
+4bucketnot setcountryUnited StatesnetspeedTypeCS_broadbandspaceId1183318750beacon21510.0
+4bucketnot setcountryUnited StatesnetspeedTypeCS_broadbandosWindows 7beacon50467.0
+4bucketnot setcountryUnited StatesnetspeedTypeCS_cablespaceId95993639beacon13068.0
+4bucketnot setcountryUnited StatesnetspeedTypeCS_cablespaceId1183318750beacon18883.0
+4bucketnot setcountryUnited StatesnetspeedTypeCS_cableosWindows 7beacon33709.0
+4bucketnot setcountryUnited StatesnetspeedTypeCS_xdslosWindows 7beacon10721.0
+4bucketyescountryUnited StatesnetspeedTypeCS_broadbandspaceId1183300002beacon69858.0
+4bucketyescountryUnited StatesnetspeedTypeCS_broadbandspaceId1183318087beacon40843.0
+4bucketyescountryUnited StatesnetspeedTypeCS_broadbandosWindows 7beacon111996.0
+4bucketyescountryUnited StatesnetspeedTypeCS_broadbandosOtherbeacon11771.0
+4bucket512027countryUnited StatesnetspeedTypeCS_broadbandspaceId1183300002beacon26070.0
+4bucket512027countryUnited StatesnetspeedTypeCS_broadbandspaceId1183318087beacon14438.0
+4bucket512027countryUnited StatesnetspeedTypeCS_broadbandosWindows 7beacon40308.0
+4bucketyescountryUnited StatesnetspeedTypeCS_cablespaceId1183300002beacon48573.0
+4bucketyescountryUnited StatesnetspeedTypeCS_cablespaceId1183318087beacon33843.0
+4bucketyescountryUnited StatesnetspeedTypeCS_cableosWindows 7beacon71147.0
+4bucketyescountryUnited StatesnetspeedTypeCS_cableosOtherbeacon13826.0
+4bucketyescountryUnited StatesnetspeedTypeCS_xdslspaceId1183300002beacon17652.0
+4bucketyescountryUnited StatesnetspeedTypeCS_xdslspaceId1183318087beacon16807.0
+4bucketyescountryUnited StatesnetspeedTypeCS_xdslosWindows 7beacon29364.0
+4bucket512012countryUnited StatesnetspeedTypeCS_broadbandspaceId1183300002beacon27261.0
+4bucket512012countryUnited StatesnetspeedTypeCS_broadbandspaceId1183318087beacon14635.0
+4bucket512012countryUnited StatesnetspeedTypeCS_broadbandosWindows 7beacon41701.0
+4bucket512012countryUnited StatesnetspeedTypeCS_cablespaceId1183300002beacon17532.0
+4bucket512012countryUnited StatesnetspeedTypeCS_cablespaceId1183318087beacon12509.0
+4bucket512012countryUnited StatesnetspeedTypeCS_cableosWindows 7beacon24651.0
+4bucket512027countryUnited StatesnetspeedTypeCS_cablespaceId1183300002beacon18378.0
+4bucket512027countryUnited StatesnetspeedTypeCS_cablespaceId1183318087beacon12428.0
+4bucket512027countryUnited StatesnetspeedTypeCS_cableosWindows 7beacon24721.0
+4bucketgs500countryUnited StatesnetspeedTypeCS_broadbandspaceId1183300002beacon24963.0
+4bucketgs500countryUnited StatesnetspeedTypeCS_broadbandspaceId1183318087beacon14280.0
+4bucketgs500countryUnited StatesnetspeedTypeCS_broadbandosWindows 7beacon39325.0
+4bucketgs500countryUnited StatesnetspeedTypeCS_cablespaceId1183300002beacon18413.0
+4bucketgs500countryUnited StatesnetspeedTypeCS_cablespaceId1183318087beacon12183.0
+4bucketgs500countryUnited StatesnetspeedTypeCS_cableosWindows 7beacon25230.0
+4bucket512019countryUnited StatesnetspeedTypeCS_broadbandosWindows 7beacon12490.0
+4browserFirefoxcountryUnited StatesnetspeedTypeCS_broadbandspaceId1183300002beacon40148.0
+4browserFirefoxcountryUnited StatesnetspeedTypeCS_broadbandspaceId1183318087beacon24371.0
+4browserFirefoxcountryUnited StatesnetspeedTypeCS_broadbandosWindows 7beacon66203.0
+4browserFirefoxcountryUnited StatesnetspeedTypeCS_cablespaceId1183300002beacon32867.0
+4browserFirefoxcountryUnited StatesnetspeedTypeCS_cablespaceId1183318087beacon24229.0
+4browserFirefoxcountryUnited StatesnetspeedTypeCS_cableosWindows 7beacon48702.0
+4browserFirefoxcountryUnited StatesnetspeedTypeCS_cableosMac OS Xbeacon10084.0
+4browserFirefoxcountryUnited StatesnetspeedTypeCS_xdslosWindows 7beacon15735.0
+4browserFirefoxbucketgs500countryUnited StatesnetspeedTypeCS_broadbandbeacon12392.0
+4browserFirefoxbucketgs500countryUnited StatesnetspeedTypeCS_cablebeacon11400.0
+4browserFirefoxbucketgs500countryUnited StatesspaceId1183300002beacon12418.0
+4browserFirefoxbucketgs500countryUnited StatesdeviceTypeDesktopbeacon28636.0
+4browserFirefoxbucketgs500countryUnited StatesosWindows 7beacon17583.0
+4browserFirefoxbucketnot setcountryUnited StatesnetspeedTypeCS_broadbandbeacon12272.0
+4browserFirefoxbucketnot setcountryUnited StatesnetspeedTypeCS_cablebeacon10560.0
+4browserFirefoxbucketnot setcountryUnited StatesspaceId1183318750beacon10471.0
+4browserFirefoxbucketnot setcountryUnited StatesdeviceTypeDesktopbeacon27437.0
+4browserFirefoxbucketnot setcountryUnited StatesosWindows 7beacon16474.0
+4browserFirefoxbucketyescountryUnited StatesnetspeedTypeCS_broadbandbeacon32017.0
+4browserFirefoxbucketyescountryUnited StatesnetspeedTypeCS_cablebeacon28189.0
+4browserFirefoxbucketyescountryUnited StatesnetspeedTypeCS_xdslbeacon11756.0
+4browserFirefoxbucketyescountryUnited StatesspaceId1183300002beacon32604.0
+4browserFirefoxbucketyescountryUnited StatesspaceId1183318087beacon23510.0
+4browserFirefoxbucketyescountryUnited StatesdeviceTypeDesktopbeacon76237.0
+4browserFirefoxbucketyescountryUnited StatesosWindows 7beacon46302.0
+4browserFirefoxbucket512012countryUnited StatesnetspeedTypeCS_broadbandbeacon13226.0
+4browserFirefoxbucket512012countryUnited StatesnetspeedTypeCS_cablebeacon11475.0
+4browserFirefoxbucket512012countryUnited StatesspaceId1183300002beacon12976.0
+4browserFirefoxbucket512012countryUnited StatesdeviceTypeDesktopbeacon29492.0
+4browserFirefoxbucket512012countryUnited StatesosWindows 7beacon17887.0
+4browserFirefoxbucket512027countryUnited StatesnetspeedTypeCS_broadbandbeacon12408.0
+4browserFirefoxbucket512027countryUnited StatesnetspeedTypeCS_cablebeacon10969.0
+4browserFirefoxbucket512027countryUnited StatesspaceId1183300002beacon12153.0
+4browserFirefoxbucket512027countryUnited StatesdeviceTypeDesktopbeacon28200.0
+4browserFirefoxbucket512027countryUnited StatesosWindows 7beacon16892.0
+4browserFirefoxbucket512019countryUnited StatesdeviceTypeDesktopbeacon11476.0
+4browserIEcountryUnited StatesdeviceTypeDesktopnetspeedTypeCS_broadbandbeacon177567.0
+4browserIEcountryUnited StatesdeviceTypeDesktopnetspeedTypeCS_cablebeacon117293.0
+4browserIEcountryUnited StatesdeviceTypeDesktopnetspeedTypeCS_xdslbeacon45964.0
+4browserIEcountryUnited StatesdeviceTypeDesktopnetspeedTypeCS_t1beacon12880.0
+4browserIEcountryUnited StatesdeviceTypeDesktopspaceId95993639beacon15496.0
+4browserIEcountryUnited StatesdeviceTypeDesktopspaceId1183300002beacon136077.0
+4browserIEcountryUnited StatesdeviceTypeDesktopspaceId1183318087beacon94430.0
+4browserIEcountryUnited StatesdeviceTypeDesktopspaceId1183318750beacon18793.0
+4browserIEcountryUnited StatesdeviceTypeDesktoposWindows 7beacon279403.0
+4browserIEcountryUnited StatesdeviceTypeDesktoposWindows Vistabeacon22672.0
+4browserIEcountryUnited StatesdeviceTypeDesktoposOtherbeacon40600.0
+4browserIEcountryUnited StatesdeviceTypeDesktoposWindows 8beacon17862.0
+4bucketnot setcountryUnited StatesosWindows 7spaceId95993639beacon24708.0
+4bucketnot setcountryUnited StatesosWindows 7spaceId1183318750beacon29877.0
+4bucketyescountryUnited StatesosWindows 7spaceId1183300002beacon102344.0
+4bucketyescountryUnited StatesosWindows 7spaceId1183318087beacon66306.0
+4bucket512012countryUnited StatesosWindows 7spaceId1183300002beacon36435.0
+4bucket512012countryUnited StatesosWindows 7spaceId1183318087beacon21890.0
+4bucket512027countryUnited StatesosWindows 7spaceId1183300002beacon35979.0
+4bucket512027countryUnited StatesosWindows 7spaceId1183318087beacon21727.0
+4bucketgs500countryUnited StatesosWindows 7spaceId1183300002beacon35521.0
+4bucketgs500countryUnited StatesosWindows 7spaceId1183318087beacon21464.0
+4bucket512019countryUnited StatesosWindows 7spaceId1183300002beacon10692.0
+4browserFirefoxcountryUnited StatesosWindows 7spaceId1183300002beacon54780.0
+4browserFirefoxcountryUnited StatesosWindows 7spaceId1183318087beacon36454.0
+4countryUnited StatesnetspeedTypeCS_broadbandosWindows 7spaceId95993639beacon12949.0
+4countryUnited StatesnetspeedTypeCS_broadbandosWindows 7spaceId1183300002beacon143711.0
+4countryUnited StatesnetspeedTypeCS_broadbandosWindows 7spaceId1183318087beacon75978.0
+4countryUnited StatesnetspeedTypeCS_broadbandosWindows 7spaceId1183318750beacon14279.0
+4countryUnited StatesnetspeedTypeCS_cableosWindows 7spaceId1183300002beacon82009.0
+4countryUnited StatesnetspeedTypeCS_cableosWindows 7spaceId1183318087beacon54341.0
+4countryUnited StatesnetspeedTypeCS_cableosWindows 7spaceId1183318750beacon11010.0
+4countryUnited StatesnetspeedTypeCS_xdslosWindows 7spaceId1183300002beacon24113.0
+4countryUnited StatesnetspeedTypeCS_xdslosWindows 7spaceId1183318087beacon20678.0
+4countryUnited StatesnetspeedTypeCS_t1osWindows 7spaceId1183300002beacon11295.0
+4browserIEdeviceTypeDesktoposOtherspaceId1183300002beacon15232.0
+4browserIEdeviceTypeDesktoposOtherspaceId1183318087beacon11829.0
+4browserFirefoxbucketyesnetspeedTypeCS_broadbandspaceId1183300002beacon17975.0
+4browserFirefoxbucketyesnetspeedTypeCS_broadbandspaceId1183318087beacon10308.0
+4browserFirefoxbucketyesnetspeedTypeCS_broadbandosWindows 7beacon24750.0
+4browserFirefoxbucketnot setnetspeedTypeCS_broadbandosWindows 7beacon16996.0
+4browserFirefoxbucketyesnetspeedTypeCS_cablespaceId1183300002beacon12873.0
+4browserFirefoxbucketyesnetspeedTypeCS_cableosWindows 7beacon16557.0
+4browserFirefoxbucket512012netspeedTypeCS_broadbandosWindows 7beacon10178.0
+4browserIEdeviceTypeDesktopnetspeedTypeCS_broadbandspaceId1183300002beacon85130.0
+4browserIEdeviceTypeDesktopnetspeedTypeCS_broadbandspaceId1183318087beacon45497.0
+4browserIEdeviceTypeDesktopnetspeedTypeCS_broadbandosWindows 7beacon190143.0
+4browserIEdeviceTypeDesktopnetspeedTypeCS_broadbandosWindows Vistabeacon10014.0
+4browserIEdeviceTypeDesktopnetspeedTypeCS_broadbandosOtherbeacon19449.0
+4browserIEdeviceTypeDesktopnetspeedTypeCS_broadbandosWindows 8beacon10288.0
+4browserIEdeviceTypeDesktopnetspeedTypeCS_cablespaceId1183300002beacon44305.0
+4browserIEdeviceTypeDesktopnetspeedTypeCS_cablespaceId1183318087beacon31804.0
+4browserIEdeviceTypeDesktopnetspeedTypeCS_cableosWindows 7beacon89387.0
+4browserIEdeviceTypeDesktopnetspeedTypeCS_cableosWindows Vistabeacon10282.0
+4browserIEdeviceTypeDesktopnetspeedTypeCS_cableosOtherbeacon19419.0
+4browserIEdeviceTypeDesktopnetspeedTypeCS_xdslspaceId1183300002beacon17509.0
+4browserIEdeviceTypeDesktopnetspeedTypeCS_xdslspaceId1183318087beacon14708.0
+4browserIEdeviceTypeDesktopnetspeedTypeCS_xdslosWindows 7beacon36714.0
+4browserIEdeviceTypeDesktopnetspeedTypeCS_t1osWindows 7beacon13477.0
+4browserIEcountryCanadadeviceTypeDesktoposWindows 7beacon11631.0
+4browserIEbucketgs500deviceTypeDesktopnetspeedTypeCS_broadbandbeacon22073.0
+4browserIEbucketgs500deviceTypeDesktopnetspeedTypeCS_cablebeacon12635.0
+4browserIEbucketgs500deviceTypeDesktopspaceId1183300002beacon19370.0
+4browserIEbucketgs500deviceTypeDesktopspaceId1183318087beacon11966.0
+4browserIEbucketgs500deviceTypeDesktoposWindows 7beacon31591.0
+4browserIEbucketnot setdeviceTypeDesktopnetspeedTypeCS_broadbandbeacon61615.0
+4browserIEbucketnot setdeviceTypeDesktopnetspeedTypeCS_cablebeacon29674.0
+4browserIEbucketnot setdeviceTypeDesktopnetspeedTypeCS_xdslbeacon11441.0
+4browserIEbucketnot setdeviceTypeDesktopspaceId95993639beacon17872.0
+4browserIEbucketnot setdeviceTypeDesktopspaceId1183318750beacon21287.0
+4browserIEbucketnot setdeviceTypeDesktoposWindows 7beacon82714.0
+4browserIEbucketnot setdeviceTypeDesktoposOtherbeacon13064.0
+4browserIEbucketyesdeviceTypeDesktopnetspeedTypeCS_broadbandbeacon71933.0
+4browserIEbucketyesdeviceTypeDesktopnetspeedTypeCS_cablebeacon42540.0
+4browserIEbucketyesdeviceTypeDesktopnetspeedTypeCS_xdslbeacon22401.0
+4browserIEbucketyesdeviceTypeDesktopspaceId1183300002beacon64511.0
+4browserIEbucketyesdeviceTypeDesktopspaceId1183318087beacon44023.0
+4browserIEbucketyesdeviceTypeDesktoposWindows 7beacon115551.0
+4browserIEbucketyesdeviceTypeDesktoposOtherbeacon14395.0
+4browserIEbucket512012deviceTypeDesktopnetspeedTypeCS_broadbandbeacon21500.0
+4browserIEbucket512012deviceTypeDesktopnetspeedTypeCS_cablebeacon11990.0
+4browserIEbucket512012deviceTypeDesktopspaceId1183300002beacon17577.0
+4browserIEbucket512012deviceTypeDesktopspaceId1183318087beacon12108.0
+4browserIEbucket512012deviceTypeDesktoposWindows 7beacon30852.0
+4browserIEbucket512027deviceTypeDesktopnetspeedTypeCS_broadbandbeacon23657.0
+4browserIEbucket512027deviceTypeDesktopnetspeedTypeCS_cablebeacon13785.0
+4browserIEbucket512027deviceTypeDesktopspaceId1183300002beacon21017.0
+4browserIEbucket512027deviceTypeDesktopspaceId1183318087beacon12530.0
+4browserIEbucket512027deviceTypeDesktoposWindows 7beacon33820.0
+4browserFirefoxbucketyesosWindows 7spaceId1183300002beacon23369.0
+4browserFirefoxbucketyesosWindows 7spaceId1183318087beacon14797.0
+4bucketnot setcountryHong KongnetspeedTypeCS_broadbandspaceId1186300002beacon12754.0
+4bucketnot setcountryHong KongnetspeedTypeCS_broadbandosWindows 7beacon20296.0
+4countryUnited StatesnetspeedTypeCS_broadbandosOtherspaceId1183300002beacon13207.0
+4countryUnited StatesnetspeedTypeCS_cableosOtherspaceId1183300002beacon15996.0
+4countryUnited StatesnetspeedTypeCS_cableosOtherspaceId1183318087beacon12358.0
+4browserIEdeviceTypeDesktoposWindows 7spaceId95993639beacon13504.0
+4browserIEdeviceTypeDesktoposWindows 7spaceId1183300002beacon122586.0
+4browserIEdeviceTypeDesktoposWindows 7spaceId1183318087beacon74547.0
+4browserIEdeviceTypeDesktoposWindows 7spaceId1183318750beacon15803.0
+4bucketyesnetspeedTypeCS_broadbandosWindows 7spaceId1183300002beacon64563.0
+4bucketyesnetspeedTypeCS_broadbandosWindows 7spaceId1183318087beacon32600.0
+4bucketnot setnetspeedTypeCS_broadbandosWindows 7spaceId95993639beacon16019.0
+4bucketnot setnetspeedTypeCS_broadbandosWindows 7spaceId1186300002beacon10065.0
+4bucketnot setnetspeedTypeCS_broadbandosWindows 7spaceId1183318750beacon17122.0
+4bucketnot setnetspeedTypeCS_cableosWindows 7spaceId1183318750beacon11801.0
+4bucket512027netspeedTypeCS_broadbandosWindows 7spaceId1183300002beacon24019.0
+4bucket512027netspeedTypeCS_broadbandosWindows 7spaceId1183318087beacon11445.0
+4bucket512012netspeedTypeCS_cableosWindows 7spaceId1183300002beacon11486.0
+4bucket512027netspeedTypeCS_cableosWindows 7spaceId1183300002beacon11586.0
+4bucketyesnetspeedTypeCS_cableosWindows 7spaceId1183300002beacon33494.0
+4bucketyesnetspeedTypeCS_cableosWindows 7spaceId1183318087beacon21883.0
+4bucketyesnetspeedTypeCS_xdslosWindows 7spaceId1183300002beacon13183.0
+4bucketyesnetspeedTypeCS_xdslosWindows 7spaceId1183318087beacon10942.0
+4bucket512012netspeedTypeCS_broadbandosWindows 7spaceId1183300002beacon24247.0
+4bucket512012netspeedTypeCS_broadbandosWindows 7spaceId1183318087beacon11617.0
+4bucketgs500netspeedTypeCS_broadbandosWindows 7spaceId1183300002beacon22474.0
+4bucketgs500netspeedTypeCS_broadbandosWindows 7spaceId1183318087beacon11370.0
+4bucketgs500netspeedTypeCS_cableosWindows 7spaceId1183300002beacon12079.0
+4browserFirefoxnetspeedTypeCS_broadbandosWindows 7spaceId1183300002beacon32555.0
+4browserFirefoxnetspeedTypeCS_broadbandosWindows 7spaceId1183318087beacon17485.0
+4browserFirefoxnetspeedTypeCS_cableosWindows 7spaceId1183300002beacon19779.0
+4browserFirefoxnetspeedTypeCS_cableosWindows 7spaceId1183318087beacon13638.0
+4bucketyescountryUnited StatesosOtherspaceId1183300002beacon13008.0
+4bucketyescountryUnited StatesosOtherspaceId1183318087beacon10752.0
+4browserIEdeviceTypeDesktoposWindows VistaspaceId1183300002beacon10285.0
+4browserIEcountryHong KongdeviceTypeDesktopnetspeedTypeCS_broadbandbeacon15620.0
+4browserIEcountryHong KongdeviceTypeDesktoposWindows 7beacon14149.0
+4browserChromecountryUnited StatesdeviceTypeDesktopnetspeedTypeCS_broadbandbeacon171214.0
+4browserChromecountryUnited StatesdeviceTypeDesktopnetspeedTypeCS_cablebeacon135480.0
+4browserChromecountryUnited StatesdeviceTypeDesktopnetspeedTypeCS_xdslbeacon40772.0
+4browserChromecountryUnited StatesdeviceTypeDesktopnetspeedTypeCS_t1beacon15443.0
+4browserChromecountryUnited StatesdeviceTypeDesktopspaceId95993639beacon13637.0
+4browserChromecountryUnited StatesdeviceTypeDesktopspaceId1183300002beacon152650.0
+4browserChromecountryUnited StatesdeviceTypeDesktopspaceId1183318087beacon85675.0
+4browserChromecountryUnited StatesdeviceTypeDesktopspaceId1183318750beacon16737.0
+4browserChromecountryUnited StatesdeviceTypeDesktoposWindows 7beacon237918.0
+4browserChromecountryUnited StatesdeviceTypeDesktoposWindows Vistabeacon18707.0
+4browserChromecountryUnited StatesdeviceTypeDesktoposOtherbeacon42113.0
+4browserChromecountryUnited StatesdeviceTypeDesktoposMac OS Xbeacon28501.0
+4browserChromecountryUnited StatesdeviceTypeDesktoposWindows XPbeacon24861.0
+4browserChromecountryUnited StatesdeviceTypeDesktoposWindows 8beacon12649.0
+4browserChromedeviceTypeDesktoposOtherspaceId1183300002beacon19214.0
+4browserChromedeviceTypeDesktoposOtherspaceId1183318087beacon11535.0
+4browserChromedeviceTypeDesktopnetspeedTypeCS_broadbandspaceId1183300002beacon94367.0
+4browserChromedeviceTypeDesktopnetspeedTypeCS_broadbandspaceId1183318087beacon42726.0
+4browserChromedeviceTypeDesktopnetspeedTypeCS_broadbandosWindows 7beacon165933.0
+4browserChromedeviceTypeDesktopnetspeedTypeCS_broadbandosOtherbeacon21835.0
+4browserChromedeviceTypeDesktopnetspeedTypeCS_broadbandosMac OS Xbeacon14934.0
+4browserChromedeviceTypeDesktopnetspeedTypeCS_broadbandosWindows XPbeacon20927.0
+4browserChromedeviceTypeDesktopnetspeedTypeCS_cablespaceId1183300002beacon58759.0
+4browserChromedeviceTypeDesktopnetspeedTypeCS_cablespaceId1183318087beacon33021.0
+4browserChromedeviceTypeDesktopnetspeedTypeCS_cableosWindows 7beacon87139.0
+4browserChromedeviceTypeDesktopnetspeedTypeCS_cableosOtherbeacon21053.0
+4browserChromedeviceTypeDesktopnetspeedTypeCS_cableosMac OS Xbeacon12851.0
+4browserChromedeviceTypeDesktopnetspeedTypeCS_cableosWindows XPbeacon10339.0
+4browserChromedeviceTypeDesktopnetspeedTypeCS_xdslspaceId1183300002beacon19343.0
+4browserChromedeviceTypeDesktopnetspeedTypeCS_xdslspaceId1183318087beacon11474.0
+4browserChromedeviceTypeDesktopnetspeedTypeCS_xdslosWindows 7beacon29723.0
+4browserChromedeviceTypeDesktopnetspeedTypeCS_t1osWindows 7beacon11730.0
+4browserChromebucketgs500deviceTypeDesktopnetspeedTypeCS_broadbandbeacon25797.0
+4browserChromebucketgs500deviceTypeDesktopnetspeedTypeCS_cablebeacon18434.0
+4browserChromebucketgs500deviceTypeDesktopspaceId1183300002beacon25762.0
+4browserChromebucketgs500deviceTypeDesktopspaceId1183318087beacon13437.0
+4browserChromebucketgs500deviceTypeDesktoposWindows 7beacon34603.0
+4browserChromebucketnot setdeviceTypeDesktopnetspeedTypeCS_broadbandbeacon64932.0
+4browserChromebucketnot setdeviceTypeDesktopnetspeedTypeCS_cablebeacon28682.0
+4browserChromebucketnot setdeviceTypeDesktopnetspeedTypeCS_xdslbeacon12408.0
+4browserChromebucketnot setdeviceTypeDesktopspaceId95993639beacon17027.0
+4browserChromebucketnot setdeviceTypeDesktopspaceId1183318750beacon19697.0
+4browserChromebucketnot setdeviceTypeDesktoposWindows 7beacon69650.0
+4browserChromebucketnot setdeviceTypeDesktoposOtherbeacon12560.0
+4browserChromebucketnot setdeviceTypeDesktoposWindows XPbeacon13632.0
+4browserChromebucketyesdeviceTypeDesktopnetspeedTypeCS_broadbandbeacon64233.0
+4browserChromebucketyesdeviceTypeDesktopnetspeedTypeCS_cablebeacon43091.0
+4browserChromebucketyesdeviceTypeDesktopnetspeedTypeCS_xdslbeacon16833.0
+4browserChromebucketyesdeviceTypeDesktopspaceId1183300002beacon64315.0
+4browserChromebucketyesdeviceTypeDesktopspaceId1183318087beacon33638.0
+4browserChromebucketyesdeviceTypeDesktoposWindows 7beacon84212.0
+4browserChromebucketyesdeviceTypeDesktoposOtherbeacon15101.0
+4browserChromebucket512012deviceTypeDesktopnetspeedTypeCS_broadbandbeacon28492.0
+4browserChromebucket512012deviceTypeDesktopnetspeedTypeCS_cablebeacon18198.0
+4browserChromebucket512012deviceTypeDesktopspaceId1183300002beacon28108.0
+4browserChromebucket512012deviceTypeDesktopspaceId1183318087beacon13696.0
+4browserChromebucket512012deviceTypeDesktoposWindows 7beacon36224.0
+4browserChromebucket512027deviceTypeDesktopnetspeedTypeCS_broadbandbeacon25957.0
+4browserChromebucket512027deviceTypeDesktopnetspeedTypeCS_cablebeacon17824.0
+4browserChromebucket512027deviceTypeDesktopspaceId1183300002beacon25837.0
+4browserChromebucket512027deviceTypeDesktopspaceId1183318087beacon13216.0
+4browserChromebucket512027deviceTypeDesktoposWindows 7beacon33457.0
+4browserChromedeviceTypeDesktoposWindows 7spaceId95993639beacon10427.0
+4browserChromedeviceTypeDesktoposWindows 7spaceId1183300002beacon119548.0
+4browserChromedeviceTypeDesktoposWindows 7spaceId1183318087beacon58541.0
+4browserChromedeviceTypeDesktoposWindows 7spaceId1183318750beacon11538.0
+4browserChromedeviceTypeDesktoposMac OS XspaceId1183300002beacon12953.0
+4browserChromedeviceTypeDesktoposWindows XPspaceId1183300002beacon13461.0
+4browserChromecountryHong KongdeviceTypeDesktopnetspeedTypeCS_broadbandbeacon11236.0
+4browserIEcountryUnited StatesnetspeedTypeCS_broadbandspaceId1183300002beacon71842.0
+4browserIEcountryUnited StatesnetspeedTypeCS_broadbandspaceId1183318087beacon42884.0
+4browserIEcountryUnited StatesnetspeedTypeCS_broadbandosWindows 7beacon148504.0
+4browserIEcountryUnited StatesnetspeedTypeCS_broadbandosOtherbeacon14338.0
+4browserIEcountryUnited StatesnetspeedTypeCS_cablespaceId1183300002beacon42204.0
+4browserIEcountryUnited StatesnetspeedTypeCS_cablespaceId1183318087beacon31414.0
+4browserIEcountryUnited StatesnetspeedTypeCS_cableosWindows 7beacon82557.0
+4browserIEcountryUnited StatesnetspeedTypeCS_cableosOtherbeacon18022.0
+4browserIEcountryUnited StatesnetspeedTypeCS_xdslspaceId1183300002beacon14918.0
+4browserIEcountryUnited StatesnetspeedTypeCS_xdslspaceId1183318087beacon14338.0
+4browserIEcountryUnited StatesnetspeedTypeCS_xdslosWindows 7beacon31395.0
+4browserIEcountryUnited StatesnetspeedTypeCS_t1osWindows 7beacon12107.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_broadbandspaceId1183300101beacon10643.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_broadbandspaceId95993639beacon16794.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_broadbandspaceId1183300002beacon187313.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_broadbandspaceId1183318087beacon104769.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_broadbandspaceId1183309777beacon10405.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_broadbandspaceId1183318750beacon20220.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_broadbandosWindows 7beacon336621.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_broadbandosWindows Vistabeacon18739.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_broadbandosOtherbeacon36477.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_broadbandosMac OS Xbeacon20875.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_broadbandosWindows XPbeacon19352.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_broadbandosWindows 8beacon13779.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_cablespaceId95993639beacon12956.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_cablespaceId1183300002beacon130200.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_cablespaceId1183318087beacon88326.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_cablespaceId1183318750beacon18174.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_cableosWindows 7beacon211457.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_cableosWindows Vistabeacon24456.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_cableosOtherbeacon46276.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_cableosMac OS Xbeacon22331.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_cableosWindows XPbeacon19041.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_cableosWindows 8beacon15662.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_xdslspaceId1183300002beacon39665.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_xdslspaceId1183318087beacon34135.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_xdslosWindows 7beacon70264.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_xdslosWindows Vistabeacon10482.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_xdslosOtherbeacon15643.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_t1spaceId1183300002beacon14140.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_t1spaceId1183318087beacon10715.0
+4countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_t1osWindows 7beacon29502.0
+4browserIEbucketgs500countryUnited StatesnetspeedTypeCS_broadbandbeacon19495.0
+4browserIEbucketgs500countryUnited StatesnetspeedTypeCS_cablebeacon12278.0
+4browserIEbucketgs500countryUnited StatesspaceId1183300002beacon17026.0
+4browserIEbucketgs500countryUnited StatesspaceId1183318087beacon11477.0
+4browserIEbucketgs500countryUnited StatesdeviceTypeDesktopbeacon38243.0
+4browserIEbucketgs500countryUnited StatesosWindows 7beacon28772.0
+4browserIEbucketnot setcountryUnited StatesnetspeedTypeCS_broadbandbeacon29573.0
+4browserIEbucketnot setcountryUnited StatesnetspeedTypeCS_cablebeacon23323.0
+4browserIEbucketnot setcountryUnited StatesspaceId95993639beacon15496.0
+4browserIEbucketnot setcountryUnited StatesspaceId1183318750beacon18793.0
+4browserIEbucketnot setcountryUnited StatesdeviceTypeDesktopbeacon63637.0
+4browserIEbucketnot setcountryUnited StatesosWindows 7beacon48006.0
+4browserIEbucketyescountryUnited StatesnetspeedTypeCS_broadbandbeacon63077.0
+4browserIEbucketyescountryUnited StatesnetspeedTypeCS_cablebeacon41102.0
+4browserIEbucketyescountryUnited StatesnetspeedTypeCS_xdslbeacon20733.0
+4browserIEbucketyescountryUnited StatesspaceId1183300002beacon56336.0
+4browserIEbucketyescountryUnited StatesspaceId1183318087beacon42489.0
+4browserIEbucketyescountryUnited StatesdeviceTypeDesktopbeacon131924.0
+4browserIEbucketyescountryUnited StatesosWindows 7beacon105542.0
+4browserIEbucketyescountryUnited StatesosOtherbeacon12837.0
+4browserIEbucket512012countryUnited StatesnetspeedTypeCS_broadbandbeacon19271.0
+4browserIEbucket512012countryUnited StatesnetspeedTypeCS_cablebeacon11603.0
+4browserIEbucket512012countryUnited StatesspaceId1183300002beacon15709.0
+4browserIEbucket512012countryUnited StatesspaceId1183318087beacon11608.0
+4browserIEbucket512012countryUnited StatesdeviceTypeDesktopbeacon37006.0
+4browserIEbucket512012countryUnited StatesosWindows 7beacon28412.0
+4browserIEbucket512027countryUnited StatesnetspeedTypeCS_broadbandbeacon20536.0
+4browserIEbucket512027countryUnited StatesnetspeedTypeCS_cablebeacon13313.0
+4browserIEbucket512027countryUnited StatesspaceId1183300002beacon18258.0
+4browserIEbucket512027countryUnited StatesspaceId1183318087beacon12003.0
+4browserIEbucket512027countryUnited StatesdeviceTypeDesktopbeacon40202.0
+4browserIEbucket512027countryUnited StatesosWindows 7beacon30679.0
+4browserIEbucket512019countryUnited StatesdeviceTypeDesktopbeacon10864.0
+4bucket512017countryUnited StatesdeviceTypeDesktoposWindows 7beacon10524.0
+4bucketnot setcountryUnited StatesdeviceTypeDesktopnetspeedTypeCS_broadbandbeacon67564.0
+4bucketnot setcountryUnited StatesdeviceTypeDesktopnetspeedTypeCS_cablebeacon55598.0
+4bucketnot setcountryUnited StatesdeviceTypeDesktopnetspeedTypeCS_xdslbeacon18072.0
+4bucketnot setcountryUnited StatesdeviceTypeDesktopspaceId49231471beacon14353.0
+4bucketnot setcountryUnited StatesdeviceTypeDesktopspaceId95993639beacon36145.0
+4bucketnot setcountryUnited StatesdeviceTypeDesktopspaceId1183300002beacon10973.0
+4bucketnot setcountryUnited StatesdeviceTypeDesktopspaceId1183318750beacon46111.0
+4bucketnot setcountryUnited StatesdeviceTypeDesktoposWindows 7beacon99964.0
+4bucketnot setcountryUnited StatesdeviceTypeDesktoposOtherbeacon18396.0
+4bucketyescountryUnited StatesdeviceTypeDesktopnetspeedTypeCS_broadbandbeacon147943.0
+4bucketyescountryUnited StatesdeviceTypeDesktopnetspeedTypeCS_cablebeacon110574.0
+4bucketyescountryUnited StatesdeviceTypeDesktopnetspeedTypeCS_xdslbeacon47067.0
+4bucketyescountryUnited StatesdeviceTypeDesktopnetspeedTypeCS_t1beacon12021.0
+4bucketyescountryUnited StatesdeviceTypeDesktopspaceId1183300002beacon143411.0
+4bucketyescountryUnited StatesdeviceTypeDesktopspaceId1183318087beacon97144.0
+4bucketyescountryUnited StatesdeviceTypeDesktoposWindows 7beacon225898.0
+4bucketyescountryUnited StatesdeviceTypeDesktoposWindows Vistabeacon18728.0
+4bucketyescountryUnited StatesdeviceTypeDesktoposOtherbeacon32633.0
+4bucketyescountryUnited StatesdeviceTypeDesktoposMac OS Xbeacon16408.0
+4bucketyescountryUnited StatesdeviceTypeDesktoposWindows XPbeacon15399.0
+4bucketyescountryUnited StatesdeviceTypeDesktoposWindows 8beacon11533.0
+4bucket512012countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_broadbandbeacon56044.0
+4bucket512012countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_cablebeacon40651.0
+4bucket512012countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_xdslbeacon11840.0
+4bucket512012countryUnited StatesdeviceTypeDesktopspaceId1183300002beacon52458.0
+4bucket512012countryUnited StatesdeviceTypeDesktopspaceId1183318087beacon33136.0
+4bucket512012countryUnited StatesdeviceTypeDesktoposWindows 7beacon78207.0
+4bucket512012countryUnited StatesdeviceTypeDesktoposOtherbeacon11610.0
+4bucket512026countryUnited StatesdeviceTypeDesktoposWindows 7beacon10707.0
+4bucket512027countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_broadbandbeacon54067.0
+4bucket512027countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_cablebeacon41368.0
+4bucket512027countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_xdslbeacon11572.0
+4bucket512027countryUnited StatesdeviceTypeDesktopspaceId1183300002beacon51966.0
+4bucket512027countryUnited StatesdeviceTypeDesktopspaceId1183318087beacon32886.0
+4bucket512027countryUnited StatesdeviceTypeDesktoposWindows 7beacon76928.0
+4bucket512027countryUnited StatesdeviceTypeDesktoposOtherbeacon12394.0
+4bucketgs500countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_broadbandbeacon53023.0
+4bucketgs500countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_cablebeacon41281.0
+4bucketgs500countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_xdslbeacon11955.0
+4bucketgs500countryUnited StatesdeviceTypeDesktopspaceId1183300002beacon51168.0
+4bucketgs500countryUnited StatesdeviceTypeDesktopspaceId1183318087beacon32404.0
+4bucketgs500countryUnited StatesdeviceTypeDesktoposWindows 7beacon76715.0
+4bucketgs500countryUnited StatesdeviceTypeDesktoposOtherbeacon11951.0
+4bucket512019countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_broadbandbeacon16746.0
+4bucket512019countryUnited StatesdeviceTypeDesktopnetspeedTypeCS_cablebeacon12137.0
+4bucket512019countryUnited StatesdeviceTypeDesktopspaceId1183300002beacon15159.0
+4bucket512019countryUnited StatesdeviceTypeDesktopspaceId1183318087beacon10650.0
+4bucket512019countryUnited StatesdeviceTypeDesktoposWindows 7beacon23616.0
+4browserFirefoxcountryUnited StatesdeviceTypeDesktopnetspeedTypeCS_broadbandbeacon99647.0
+4browserFirefoxcountryUnited StatesdeviceTypeDesktopnetspeedTypeCS_cablebeacon88084.0
+4browserFirefoxcountryUnited StatesdeviceTypeDesktopnetspeedTypeCS_xdslbeacon29446.0
+4browserFirefoxcountryUnited StatesdeviceTypeDesktopspaceId1183300002beacon87608.0
+4browserFirefoxcountryUnited StatesdeviceTypeDesktopspaceId1183318087beacon61492.0
+4browserFirefoxcountryUnited StatesdeviceTypeDesktopspaceId1183318750beacon10414.0
+4browserFirefoxcountryUnited StatesdeviceTypeDesktoposWindows 7beacon139704.0
+4browserFirefoxcountryUnited StatesdeviceTypeDesktoposWindows Vistabeacon13429.0
+4browserFirefoxcountryUnited StatesdeviceTypeDesktoposOtherbeacon19642.0
+4browserFirefoxcountryUnited StatesdeviceTypeDesktoposMac OS Xbeacon22977.0
+4browserFirefoxcountryUnited StatesdeviceTypeDesktoposWindows XPbeacon23895.0
+4browserIEcountryUnited StatesosWindows 7spaceId95993639beacon11823.0
+4browserIEcountryUnited StatesosWindows 7spaceId1183300002beacon108143.0
+4browserIEcountryUnited StatesosWindows 7spaceId1183318087beacon71678.0
+4browserIEcountryUnited StatesosWindows 7spaceId1183318750beacon13910.0
+4deviceTypeDesktopnetspeedTypeCS_broadbandosOtherspaceId1183300002beacon17766.0
+4deviceTypeDesktopnetspeedTypeCS_broadbandosOtherspaceId1183318087beacon10830.0
+4deviceTypeDesktopnetspeedTypeCS_cableosOtherspaceId1183300002beacon17227.0
+4deviceTypeDesktopnetspeedTypeCS_cableosOtherspaceId1183318087beacon12592.0
+4countryUnited StatesdeviceTypeDesktoposWindows 7spaceId1183300101beacon15682.0
+4countryUnited StatesdeviceTypeDesktoposWindows 7spaceId95993639beacon24708.0
+4countryUnited StatesdeviceTypeDesktoposWindows 7spaceId1183300002beacon265140.0
+4countryUnited StatesdeviceTypeDesktoposWindows 7spaceId1183318087beacon162223.0
+4countryUnited StatesdeviceTypeDesktoposWindows 7spaceId1183300103beacon10322.0
+4countryUnited StatesdeviceTypeDesktoposWindows 7spaceId1183300226beacon14282.0
+4countryUnited StatesdeviceTypeDesktoposWindows 7spaceId1183309777beacon15955.0
+4countryUnited StatesdeviceTypeDesktoposWindows 7spaceId1183318750beacon29877.0
+4countryUnited StatesdeviceTypeDesktoposWindows 8spaceId1183300002beacon13504.0
+4bucketyesdeviceTypeDesktoposOtherspaceId1183300002beacon15717.0
+4bucketyesdeviceTypeDesktoposOtherspaceId1183318087beacon11390.0
+4countryUnited StatesdeviceTypeDesktoposWindows XPspaceId1183300002beacon18540.0
+4countryUnited StatesdeviceTypeDesktoposWindows XPspaceId1183318087beacon12615.0
+4countryUnited StatesdeviceTypeDesktoposWindows VistaspaceId1183300002beacon21519.0
+4countryUnited StatesdeviceTypeDesktoposWindows VistaspaceId1183318087beacon14684.0
+4countryUnited StatesdeviceTypeDesktoposMac OS XspaceId1183300002beacon19939.0
+4countryUnited StatesdeviceTypeDesktoposMac OS XspaceId1183318087beacon13709.0
+4browserIEbucketgs500netspeedTypeCS_broadbandspaceId1183300002beacon10749.0
+4browserIEbucketgs500netspeedTypeCS_broadbandosWindows 7beacon18032.0
+4browserIEbucketyesnetspeedTypeCS_broadbandspaceId1183300002beacon34454.0
+4browserIEbucketyesnetspeedTypeCS_broadbandspaceId1183318087beacon19519.0
+4browserIEbucketyesnetspeedTypeCS_broadbandosWindows 7beacon60598.0
+4browserIEbucketnot setnetspeedTypeCS_broadbandosWindows 7beacon50253.0
+4browserIEbucketnot setnetspeedTypeCS_cableosWindows 7beacon20773.0
+4browserIEbucketyesnetspeedTypeCS_cablespaceId1183300002beacon18157.0
+4browserIEbucketyesnetspeedTypeCS_cablespaceId1183318087beacon13808.0
+4browserIEbucketyesnetspeedTypeCS_cableosWindows 7beacon31992.0
+4browserIEbucketyesnetspeedTypeCS_xdslosWindows 7beacon16146.0
+4browserIEbucket512012netspeedTypeCS_broadbandspaceId1183300002beacon10028.0
+4browserIEbucket512012netspeedTypeCS_broadbandosWindows 7beacon17808.0
+4browserIEbucket512027netspeedTypeCS_broadbandspaceId1183300002beacon11922.0
+4browserIEbucket512027netspeedTypeCS_broadbandosWindows 7beacon19479.0
+4browserIEbucketnot setcountryCanadadeviceTypeDesktopbeacon10395.0
+4bucketnot setdeviceTypeDesktopnetspeedTypeCS_broadbandspaceId95993639beacon21536.0
+4bucketnot setdeviceTypeDesktopnetspeedTypeCS_broadbandspaceId1186300002beacon14247.0
+4bucketnot setdeviceTypeDesktopnetspeedTypeCS_broadbandspaceId1183318750beacon24671.0
+4bucketnot setdeviceTypeDesktopnetspeedTypeCS_broadbandosWindows 7beacon109669.0
+4bucketnot setdeviceTypeDesktopnetspeedTypeCS_broadbandosOtherbeacon13458.0
+4bucketnot setdeviceTypeDesktopnetspeedTypeCS_broadbandosWindows XPbeacon13171.0
+4bucketnot setdeviceTypeDesktopnetspeedTypeCS_cablespaceId95993639beacon14219.0
+4bucketnot setdeviceTypeDesktopnetspeedTypeCS_cablespaceId1183318750beacon19493.0
+4bucketnot setdeviceTypeDesktopnetspeedTypeCS_cableosWindows 7beacon44646.0
+4bucketnot setdeviceTypeDesktopnetspeedTypeCS_cableosOtherbeacon10679.0
+4bucketnot setdeviceTypeDesktopnetspeedTypeCS_xdslosWindows 7beacon17778.0
+4bucketyesdeviceTypeDesktopnetspeedTypeCS_broadbandspaceId1183300002beacon85648.0
+4bucketyesdeviceTypeDesktopnetspeedTypeCS_broadbandspaceId1183318087beacon45021.0
+4bucketyesdeviceTypeDesktopnetspeedTypeCS_broadbandosWindows 7beacon129934.0
+4bucketyesdeviceTypeDesktopnetspeedTypeCS_broadbandosOtherbeacon14518.0
+4bucket512027deviceTypeDesktopnetspeedTypeCS_broadbandspaceId1183300002beacon32353.0
+4bucket512027deviceTypeDesktopnetspeedTypeCS_broadbandspaceId1183318087beacon16092.0
+4bucket512027deviceTypeDesktopnetspeedTypeCS_broadbandosWindows 7beacon47012.0
+4bucketyesdeviceTypeDesktopnetspeedTypeCS_cablespaceId1183300002beacon51682.0
+4bucketyesdeviceTypeDesktopnetspeedTypeCS_cablespaceId1183318087beacon34299.0
+4bucketyesdeviceTypeDesktopnetspeedTypeCS_cableosWindows 7beacon74158.0
+4bucketyesdeviceTypeDesktopnetspeedTypeCS_cableosOtherbeacon14551.0
+4bucketyesdeviceTypeDesktopnetspeedTypeCS_xdslspaceId1183300002beacon21213.0
+4bucketyesdeviceTypeDesktopnetspeedTypeCS_xdslspaceId1183318087beacon17484.0
+4bucketyesdeviceTypeDesktopnetspeedTypeCS_xdslosWindows 7beacon32729.0
+4bucketyesdeviceTypeDesktopnetspeedTypeCS_t1osWindows 7beacon10159.0
+4bucket512012deviceTypeDesktopnetspeedTypeCS_broadbandspaceId1183300002beacon32954.0
+4bucket512012deviceTypeDesktopnetspeedTypeCS_broadbandspaceId1183318087beacon16255.0
+4bucket512012deviceTypeDesktopnetspeedTypeCS_broadbandosWindows 7beacon47989.0
+4bucket512012deviceTypeDesktopnetspeedTypeCS_cablespaceId1183300002beacon18785.0
+4bucket512012deviceTypeDesktopnetspeedTypeCS_cablespaceId1183318087beacon12750.0
+4bucket512012deviceTypeDesktopnetspeedTypeCS_cableosWindows 7beacon25727.0
+4bucket512027deviceTypeDesktopnetspeedTypeCS_cablespaceId1183300002beacon19462.0
+4bucket512027deviceTypeDesktopnetspeedTypeCS_cablespaceId1183318087beacon12647.0
+4bucket512027deviceTypeDesktopnetspeedTypeCS_cableosWindows 7beacon25722.0
+4bucketgs500deviceTypeDesktopnetspeedTypeCS_broadbandspaceId1183300002beacon30565.0
+4bucketgs500deviceTypeDesktopnetspeedTypeCS_broadbandspaceId1183318087beacon15981.0
+4bucketgs500deviceTypeDesktopnetspeedTypeCS_broadbandosWindows 7beacon45610.0
+4bucketgs500deviceTypeDesktopnetspeedTypeCS_cablespaceId1183300002beacon19538.0
+4bucketgs500deviceTypeDesktopnetspeedTypeCS_cablespaceId1183318087beacon12364.0
+4bucketgs500deviceTypeDesktopnetspeedTypeCS_cableosWindows 7beacon26230.0
+4bucket512019deviceTypeDesktopnetspeedTypeCS_broadbandosWindows 7beacon14572.0
+4browserFirefoxdeviceTypeDesktopnetspeedTypeCS_broadbandspaceId1183300002beacon49241.0
+4browserFirefoxdeviceTypeDesktopnetspeedTypeCS_broadbandspaceId1183318087beacon27755.0
+4browserFirefoxdeviceTypeDesktopnetspeedTypeCS_broadbandosWindows 7beacon84566.0
+4browserFirefoxdeviceTypeDesktopnetspeedTypeCS_broadbandosMac OS Xbeacon11332.0
+4browserFirefoxdeviceTypeDesktopnetspeedTypeCS_broadbandosWindows XPbeacon15293.0
+4browserFirefoxdeviceTypeDesktopnetspeedTypeCS_cablespaceId1183300002beacon35255.0
+4browserFirefoxdeviceTypeDesktopnetspeedTypeCS_cablespaceId1183318087beacon24650.0
+4browserFirefoxdeviceTypeDesktopnetspeedTypeCS_cableosWindows 7beacon52768.0
+4browserFirefoxdeviceTypeDesktopnetspeedTypeCS_cableosMac OS Xbeacon10818.0
+4browserFirefoxdeviceTypeDesktopnetspeedTypeCS_cableosWindows XPbeacon10875.0
+4browserFirefoxdeviceTypeDesktopnetspeedTypeCS_xdslspaceId1183300002beacon12308.0
+4browserFirefoxdeviceTypeDesktopnetspeedTypeCS_xdslosWindows 7beacon19416.0
+4bucketnot setcountryCanadadeviceTypeDesktopnetspeedTypeCS_cablebeacon11544.0
+4bucketnot setcountryCanadadeviceTypeDesktoposWindows 7beacon17176.0
+4bucketnot setcountryIndiadeviceTypeDesktopnetspeedTypeCS_broadbandbeacon10987.0
+4bucketnot setcountryIndiadeviceTypeDesktoposWindows 7beacon10797.0
+4browserFirefoxbucketgs500deviceTypeDesktopnetspeedTypeCS_broadbandbeacon14746.0
+4browserFirefoxbucketgs500deviceTypeDesktopnetspeedTypeCS_cablebeacon11841.0
+4browserFirefoxbucketgs500deviceTypeDesktopspaceId1183300002beacon14353.0
+4browserFirefoxbucketgs500deviceTypeDesktoposWindows 7beacon19570.0
+4browserFirefoxbucketnot setdeviceTypeDesktopnetspeedTypeCS_broadbandbeacon28456.0
+4browserFirefoxbucketnot setdeviceTypeDesktopnetspeedTypeCS_cablebeacon14508.0
+4browserFirefoxbucketnot setdeviceTypeDesktopspaceId1183318750beacon12459.0
+4browserFirefoxbucketnot setdeviceTypeDesktoposWindows 7beacon29829.0
+4browserFirefoxbucketyesdeviceTypeDesktopnetspeedTypeCS_broadbandbeacon38289.0
+4browserFirefoxbucketyesdeviceTypeDesktopnetspeedTypeCS_cablebeacon29573.0
+4browserFirefoxbucketyesdeviceTypeDesktopnetspeedTypeCS_xdslbeacon13251.0
+4browserFirefoxbucketyesdeviceTypeDesktopspaceId1183300002beacon38149.0
+4browserFirefoxbucketyesdeviceTypeDesktopspaceId1183318087beacon25214.0
+4browserFirefoxbucketyesdeviceTypeDesktoposWindows 7beacon51743.0
+4browserFirefoxbucket512012deviceTypeDesktopnetspeedTypeCS_broadbandbeacon15806.0
+4browserFirefoxbucket512012deviceTypeDesktopnetspeedTypeCS_cablebeacon12232.0
+4browserFirefoxbucket512012deviceTypeDesktopspaceId1183300002beacon15313.0
+4browserFirefoxbucket512012deviceTypeDesktoposWindows 7beacon20127.0
+4browserFirefoxbucket512027deviceTypeDesktopnetspeedTypeCS_broadbandbeacon14725.0
+4browserFirefoxbucket512027deviceTypeDesktopnetspeedTypeCS_cablebeacon11484.0
+4browserFirefoxbucket512027deviceTypeDesktopspaceId1183300002beacon14104.0
+4browserFirefoxbucket512027deviceTypeDesktoposWindows 7beacon18936.0
+4countryCanadadeviceTypeDesktopnetspeedTypeCS_broadbandosWindows 7beacon11352.0
+4countryCanadadeviceTypeDesktopnetspeedTypeCS_cableosWindows 7beacon10492.0
+4browserIEbucketgs500osWindows 7spaceId1183300002beacon14779.0
+4browserIEbucketnot setosWindows 7spaceId95993639beacon13504.0
+4browserIEbucketnot setosWindows 7spaceId1183318750beacon15803.0
+4browserIEbucketyesosWindows 7spaceId1183300002beacon52361.0
+4browserIEbucketyesosWindows 7spaceId1183318087beacon34385.0
+4browserIEbucket512012osWindows 7spaceId1183300002beacon13831.0
+4browserIEbucket512027osWindows 7spaceId1183300002beacon16227.0
+4browserIEcountryHong KongnetspeedTypeCS_broadbandosWindows 7beacon12893.0
+4deviceTypeDesktopnetspeedTypeCS_cableosWindows VistaspaceId1183300002beacon10453.0
+4bucketnot setdeviceTypeDesktoposWindows 7spaceId49231471beacon11239.0
+4bucketnot setdeviceTypeDesktoposWindows 7spaceId95993639beacon29473.0
+4bucketnot setdeviceTypeDesktoposWindows 7spaceId1186300002beacon11288.0
+4bucketnot setdeviceTypeDesktoposWindows 7spaceId1183318750beacon34516.0
+4bucketyesdeviceTypeDesktoposWindows 7spaceId1183300002beacon117937.0
+4bucketyesdeviceTypeDesktoposWindows 7spaceId1183318087beacon70159.0
+4bucket512012deviceTypeDesktoposWindows 7spaceId1183300002beacon41722.0
+4bucket512012deviceTypeDesktoposWindows 7spaceId1183318087beacon23373.0
+4bucket512027deviceTypeDesktoposWindows 7spaceId1183300002beacon41651.0
+4bucket512027deviceTypeDesktoposWindows 7spaceId1183318087beacon23219.0
+4bucketgs500deviceTypeDesktoposWindows 7spaceId1183300002beacon40835.0
+4bucketgs500deviceTypeDesktoposWindows 7spaceId1183318087beacon22966.0
+4deviceTypeDesktopnetspeedTypeCS_broadbandosMac OS XspaceId1183300002beacon10623.0
+4bucket512019deviceTypeDesktoposWindows 7spaceId1183300002beacon12358.0
+4browserFirefoxdeviceTypeDesktoposWindows 7spaceId1183300002beacon62849.0
+4browserFirefoxdeviceTypeDesktoposWindows 7spaceId1183318087beacon39243.0
+4deviceTypeDesktopnetspeedTypeCS_broadbandosWindows XPspaceId1183300002beacon11284.0
+4countryHong KongdeviceTypeDesktopnetspeedTypeCS_broadbandspaceId1186300002beacon12635.0
+4countryHong KongdeviceTypeDesktopnetspeedTypeCS_broadbandosWindows 7beacon21828.0
+4browserIEnetspeedTypeCS_broadbandosWindows 7spaceId1183300002beacon71722.0
+4browserIEnetspeedTypeCS_broadbandosWindows 7spaceId1183318087beacon36891.0
+4browserIEnetspeedTypeCS_cableosWindows 7spaceId1183300002beacon31619.0
+4browserIEnetspeedTypeCS_cableosWindows 7spaceId1183318087beacon22196.0
+4browserIEnetspeedTypeCS_xdslosWindows 7spaceId1183300002beacon12140.0
+4browserIEnetspeedTypeCS_xdslosWindows 7spaceId1183318087beacon10097.0
+4browserIEbucketnot setcountryHong KongnetspeedTypeCS_broadbandbeacon14748.0
+4browserIEbucketnot setcountryHong KongdeviceTypeDesktopbeacon16126.0
+4browserIEbucketnot setcountryHong KongosWindows 7beacon13460.0
+4browserIEcountryUnited StatesosOtherspaceId1183300002beacon12880.0
+4browserIEcountryUnited StatesosOtherspaceId1183318087beacon11346.0
+4deviceTypeDesktopnetspeedTypeCS_broadbandosWindows 7spaceId95993639beacon16019.0
+4deviceTypeDesktopnetspeedTypeCS_broadbandosWindows 7spaceId1183300002beacon171049.0
+4deviceTypeDesktopnetspeedTypeCS_broadbandosWindows 7spaceId1183318087beacon83404.0
+4deviceTypeDesktopnetspeedTypeCS_broadbandosWindows 7spaceId1186300002beacon10065.0
+4deviceTypeDesktopnetspeedTypeCS_broadbandosWindows 7spaceId1183318750beacon17122.0
+4deviceTypeDesktopnetspeedTypeCS_cableosWindows 7spaceId1183300002beacon86821.0
+4deviceTypeDesktopnetspeedTypeCS_cableosWindows 7spaceId1183318087beacon55230.0
+4deviceTypeDesktopnetspeedTypeCS_cableosWindows 7spaceId1183318750beacon11801.0
+4deviceTypeDesktopnetspeedTypeCS_xdslosWindows 7spaceId1183300002beacon29931.0
+4deviceTypeDesktopnetspeedTypeCS_xdslosWindows 7spaceId1183318087beacon21728.0
+4deviceTypeDesktopnetspeedTypeCS_t1osWindows 7spaceId1183300002beacon12026.0
+4browserFirefoxdeviceTypeDesktoposMac OS XspaceId1183300002beacon10181.0
+4bucketnot setcountryHong KongdeviceTypeDesktopnetspeedTypeCS_broadbandbeacon28736.0
+4bucketnot setcountryHong KongdeviceTypeDesktopspaceId1186300002beacon13779.0
+4bucketnot setcountryHong KongdeviceTypeDesktoposWindows 7beacon22148.0
+4countryUnited StatesdeviceTypeDesktoposOtherspaceId1183300002beacon35383.0
+4countryUnited StatesdeviceTypeDesktoposOtherspaceId1183318087beacon27796.0
+4browserFirefoxdeviceTypeDesktoposWindows XPspaceId1183300002beacon10403.0

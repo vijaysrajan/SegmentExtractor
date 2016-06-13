@@ -1,0 +1,42 @@
+1netspeedTypeCS_broadbandbeacon613781.0
+1netspeedTypeCS_cablebeacon375007.0
+1netspeedTypeCS_mobilebeacon25703.0
+1netspeedTypeCS_xdslbeacon144358.0
+1netspeedTypeCS_t1beacon42299.0
+1countryCanadabeacon43972.0
+1bucketnot setbeacon285371.0
+1bucketyesbeacon365524.0
+1bucket512012beacon130206.0
+1bucket512026beacon17877.0
+1bucket512027beacon129354.0
+1buckethtml5_chartsbeacon15731.0
+1bucketgs500beacon127859.0
+1spaceId1183300101beacon25368.0
+1osAndroidbeacon10141.0
+1spaceId49231471beacon17151.0
+1spaceId95993639beacon44509.0
+1bucket512019beacon39763.0
+1spaceId1183300002beacon442592.0
+1spaceId1183318087beacon259166.0
+1spaceId1183300103beacon18214.0
+1spaceId1186300002beacon16233.0
+1spaceId1183300226beacon23567.0
+1spaceId1183309777beacon25371.0
+1browserIEbeacon433899.0
+1browserChromebeacon482672.0
+1browserFirefoxbeacon282360.0
+1spaceId1183318750beacon57277.0
+1bucket512017beacon18009.0
+1countryUnited Statesbeacon968436.0
+1countryMexicobeacon10805.0
+1deviceTypeDesktopbeacon1197061.0
+1deviceTypeSmartphonebeacon10424.0
+1countryIndiabeacon22131.0
+1osWindows 7beacon808554.0
+1osWindows Vistabeacon65498.0
+1osOtherbeacon126362.0
+1osMac OS Xbeacon62021.0
+1osLinuxbeacon11766.0
+1osWindows XPbeacon73733.0
+1countryHong Kongbeacon35130.0
+1osWindows 8beacon49524.0
