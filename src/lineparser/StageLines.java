@@ -19,24 +19,17 @@ public class StageLines {
 		return stageLines.listIterator();
 	}
 	
-	
-	private int lineId = 0;
 	public void injectLine(String line) throws Exception {
-		
-		FISid FISid  = new FISid(lineId, stageNum);
-
-		LineFIS lFIS = new LineFIS(FISid, line );
+		//FISid FISid  = new FISid(lineId, stageNum);
+		LineFIS lFIS = new LineFIS(line );
 		stageLines.add(lFIS);
-		lineId++;
 	}
-	
 	
 	public static void main(String [] args) throws Exception{
 		StageLines s = new StageLines(2);
 		s.injectLine(args[0]);
 		ListIterator<LineFIS> lItr = s.getListIterator();
-		FISid FISid  = new FISid(0,0);
-		LineFIS toComp = new LineFIS(FISid,args[1]);
+		LineFIS toComp = new LineFIS(args[1]);
 		while (lItr.hasNext()) {
 			System.out.println(lItr.next().isSubLineInLine(toComp));
 		}
@@ -53,6 +46,5 @@ public class StageLines {
 				}
 			}
 		}
-		
 	}
 }

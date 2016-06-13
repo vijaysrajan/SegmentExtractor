@@ -118,8 +118,6 @@ public class Tree {
 		
 		Tree t = new Tree();
 
-		
-		
 		DimensionNode si = new DimensionNode(1, "Advocate R Sankar Iyer", 1897);
 		t.addNodeToChild(si, null);
 			ValueNode v1 = new ValueNode("S Ranganathan",1, 1925,"");

@@ -6,14 +6,15 @@ import java.util.Set;
 import java.util.Collections;
 
 public class LineFIS {
-	FISid fisId;
+	//FISid fisId;
 	int stageNum;
+
 	DimVal [] dimensionNameAndValueArray;
 	Metric [] metricNameAndValueArray;
 	String [] strRepDimVal; 
-	
-	public LineFIS(FISid f, int stg, DimVal [] dvArr, Metric [] mtrcArr) {
-		fisId = f;
+		
+	public LineFIS(int stg, DimVal [] dvArr, Metric [] mtrcArr) {
+		//fisId = f;
 		stageNum = stg;
 		dimensionNameAndValueArray = dvArr;
 		metricNameAndValueArray = mtrcArr;
@@ -27,7 +28,14 @@ public class LineFIS {
 		}
 	}
 	
-	public LineFIS(FISid f, String line) throws Exception {
+	public LineFIS(String line) throws Exception {
+		if (line.equals("") == true) {
+			stageNum = 0;
+			dimensionNameAndValueArray = null;
+			metricNameAndValueArray = null;
+			strRepDimVal = null;
+			return;
+		}
 		
 		////////////////////////////////////////////////////////////////////
 		//Split 2^DnetspeedType^BCS_cable^Aos^BWindows Vista^Cbeacon^B26631.0^ATotalOnloadTime^B766009 into
@@ -67,15 +75,31 @@ public class LineFIS {
 			metricArr[i] = new Metric(arr4[0], Double.parseDouble(arr4[1]));
 		}
 		dimensionNameAndValueArray = dimValArr;
-		fisId = f;
-		stageNum = f.getStage();
+		//fisId = f;
+		stageNum = Integer.parseInt(arr1[0]);
 		metricNameAndValueArray = metricArr;
 		stringRepDimVal(dimValArr);
 		
 	}
 	
 	
+	public Metric[] getMetricNameAndValueArray() {
+		return metricNameAndValueArray;
+	}
+
+	public int getStageNum() {
+		return stageNum;
+	}
+
+	public void setStageNum(int stageNum) {
+		this.stageNum = stageNum;
+	}
+
+	
 	public String [] getAllDimVal() {
+		if (strRepDimVal == null) {
+			return new String[0];
+		}
 		return strRepDimVal;
 	}
 	
@@ -86,6 +110,9 @@ public class LineFIS {
 
         switch (exactAtLeastAtMost.toLowerCase() ) {
                 case "exactly":
+//                		System.out.println("str = " + str);
+//                		System.out.println("ret.length =" + ret.length);
+//                		System.out.println("expectedArraySize =" + expectedArraySize);
                         if (ret.length != expectedArraySize) {
                                 throw new Exception("Expecting " + exactAtLeastAtMost +  " " + expectedArraySize  + separator + "s but got " + (ret.length - 1) );
                         }
@@ -183,7 +210,6 @@ public class LineFIS {
 		
 		Set<String> s2 = new HashSet<String>();
 		Collections.addAll(s2, subLine.getAllDimVal());
-
 		Set<String> difference1 = new HashSet<String>(s1);
 		difference1.removeAll(s2);
 		
@@ -204,9 +230,18 @@ public class LineFIS {
 		return retBool;
 	}
 	
-	
-	
-	
-	
+	@Override
+	public String toString() {
+		if ( (strRepDimVal == null) ||(strRepDimVal.equals("") == true)) 
+			return "";
+		StringBuilder sb = new StringBuilder();
+		for(String s: strRepDimVal) {
+			sb.append(s);
+			if (strRepDimVal[strRepDimVal.length - 1] != s) {
+				sb.append(Character.toString('\002'));
+			}
+		}
+		return sb.toString();
+	}
 	
 }
