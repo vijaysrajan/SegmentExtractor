@@ -1,4 +1,4 @@
-package lineparser;
+package poc.lineparser;
 
 public class Metric  {
 	private String  metricName;

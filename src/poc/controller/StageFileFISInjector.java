@@ -1,12 +1,11 @@
-package controller;
+package poc.controller;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
 
-import controller.CandidateTable;
-import lineparser.DimVal;
-import lineparser.LineFIS;
+import poc.lineparser.DimVal;
+import poc.lineparser.LineFIS;
 
 
 public class StageFileFISInjector {

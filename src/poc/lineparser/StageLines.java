@@ -1,4 +1,4 @@
-package lineparser;
+package poc.lineparser;
 import java.util.ArrayList;
 import java.util.ListIterator;
 

@@ -1,12 +1,12 @@
-package controller;
+package poc.controller;
 
 import java.util.ArrayList;
 
-import lineparser.DimVal;
-import lineparser.LineFIS;
-import lineparser.Metric;
-//import treecomponents.ValueNode;
-//import treecomponents.DimensionNode;
+import poc.lineparser.DimVal;
+import poc.lineparser.LineFIS;
+import poc.lineparser.Metric;
+//import poc.treecomponents.ValueNode;
+//import poc.treecomponents.DimensionNode;
 
 public class CandidateTableElement {
 	private String lineAsIs;

@@ -1,3 +1,5 @@
+package poc;
+
 import java.util.LinkedList;
 import java.util.HashMap;
 import java.io.File;
@@ -9,6 +11,10 @@ import java.util.Arrays;
 
 
 public class AutomatedTreeCreator {
+
+	/*
+	    ################### Commented for compilation. #################################
+
 
 	static class Val {
 		String val;
@@ -115,10 +121,9 @@ public class AutomatedTreeCreator {
 
 	public static HashMap<String, HashMap<String,LinkedList<Val>>> readStageFile(int stageNumber, String filterRegex, String fileName) throws Exception {
 
-		/*
-		HashMap<String, HashMap<String,LinkedList<Val>>> ret1 = new HashMap<String, HashMap<String,LinkedList<Val>>>();
-		HashMap<String,LinkedList<Val>> ret2 = new HashMap<String,LinkedList<Val>>();
-		*/
+
+    	//HashMap<String, HashMap<String,LinkedList<Val>>> ret1 = new HashMap<String, HashMap<String,LinkedList<Val>>>();
+		//HashMap<String,LinkedList<Val>> ret2 = new HashMap<String,LinkedList<Val>>();
 
 		BufferedReader br = new BufferedReader(new FileReader(fileName));
 		try {
@@ -158,6 +163,8 @@ public class AutomatedTreeCreator {
 		}
 		return ret;
 	}
+
+    */
 }
 
 

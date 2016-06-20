@@ -1,7 +1,4 @@
-package controller;
-import lineparser.StageLines;
-import lineparser.LineFIS;
-
+package poc.controller;
 
 public class ControllingIntelligence {
 

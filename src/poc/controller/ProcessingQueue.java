@@ -1,11 +1,12 @@
-package controller;
+package poc.controller;
 
-import java.util.concurrent.ConcurrentLinkedQueue;
-//import lineparser.DimVal;
-//import lineparser.Metric;
-import lineparser.LineFIS;
-//import lineparser.StageLines;
+//import poc.lineparser.StageLines;
 import java.util.Iterator;
+import java.util.concurrent.ConcurrentLinkedQueue;
+
+//import poc.lineparser.DimVal;
+//import poc.lineparser.Metric;
+import poc.lineparser.LineFIS;
 
 public class ProcessingQueue {
 	private ConcurrentLinkedQueue<LineFIS> queue = new ConcurrentLinkedQueue<LineFIS>();

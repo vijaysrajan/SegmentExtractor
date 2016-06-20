@@ -1,12 +1,8 @@
-package controller;
+package poc.controller;
 
-import java.util.ArrayList;
-import java.util.LinkedHashSet;
-import java.util.LinkedList;
-import java.util.Map;
 import java.util.LinkedHashMap;
-
-import java.util.Set;
+import java.util.LinkedHashSet;
+import java.util.Map;
 
 public class CandidateTable {
 	private LinkedHashSet<CandidateTableElement>  table = new LinkedHashSet<CandidateTableElement>();

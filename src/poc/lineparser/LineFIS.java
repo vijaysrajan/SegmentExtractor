@@ -1,9 +1,9 @@
-package lineparser;
+package poc.lineparser;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.Collections;
 
 public class LineFIS {
 	//FISid fisId;

@@ -1,4 +1,4 @@
-package treecomponents;
+package poc.treecomponents;
 import java.util.LinkedList;
 
 public class DimensionNode extends BaseNode {
