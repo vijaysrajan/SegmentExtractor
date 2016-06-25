@@ -1,19 +1,9 @@
 package poc;
 
-import java.util.LinkedList;
-import java.util.HashMap;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.BufferedReader;
-import java.util.Arrays;
-
-
-
 public class AutomatedTreeCreator {
 
 	/*
-	    ################### Commented for compilation. #################################
+        ################### Commented for compilation. #################################
 
 
 	static class Val {
@@ -44,7 +34,7 @@ public class AutomatedTreeCreator {
 
 	private static LinkedList<String> queueBreadthFirst =  new LinkedList<String>();
 
-	public static void main (String [] args) throws Exception{
+	public static void com.fratics.segmentextractor.main (String [] args) throws Exception{
 
 		if ( (args == null) || (args.length == 0) )  {
 			System.err.println("Please enter the stages.  Parameters <optional stage file prefix> <optional stage file suffix> <mandatory number of stages>");

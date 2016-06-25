@@ -1,14 +1,14 @@
 package poc.treecomponents;
 
 
-
 public class BaseNode {
-	int 	stageNumber;
+    int stageNumber;
 
-	public int getStageNumber() {
-		return stageNumber;
-	}
-	public void setStageNumber(int stageNumber) {
-		this.stageNumber = stageNumber;
-	}
+    public int getStageNumber() {
+        return stageNumber;
+    }
+
+    public void setStageNumber(int stageNumber) {
+        this.stageNumber = stageNumber;
+    }
 }
