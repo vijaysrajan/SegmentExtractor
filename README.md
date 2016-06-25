@@ -13,9 +13,13 @@ Compilation & Running:-
 =======================
 
 1) Checkout the git folder.
+
 2) go to SegmentExtractor folder.
+
 3) Exec maven command - "mvn clean package"
+
 4) Exec java command - "java -cp target/SegmentExtractor-0.0.1-SNAPSHOT.jar com.fratics.segmentextractor.main.Main"
+
 5) Check the resulting output file "Segments.json" in "data" folder.
 
 Happy preciiiing..
