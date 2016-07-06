@@ -12,20 +12,6 @@ public class StageLines {
         stageLines = new ArrayList<LineFIS>();
     }
 
-    public int getStageNum() {
-        return stageNum;
-    }
-
-    public ListIterator<LineFIS> getListIterator() {
-        return stageLines.listIterator();
-    }
-
-    public void injectLine(String line) throws Exception {
-        //FISid FISid  = new FISid(lineId, stageNum);
-        LineFIS lFIS = new LineFIS(line);
-        stageLines.add(lFIS);
-    }
-
     public static void main(String[] args) throws Exception {
         StageLines s = new StageLines(2);
         s.injectLine(args[0]);
@@ -47,5 +33,19 @@ public class StageLines {
                 }
             }
         }
+    }
+
+    public int getStageNum() {
+        return stageNum;
+    }
+
+    public ListIterator<LineFIS> getListIterator() {
+        return stageLines.listIterator();
+    }
+
+    public void injectLine(String line) throws Exception {
+        //FISid FISid  = new FISid(lineId, stageNum);
+        LineFIS lFIS = new LineFIS(line);
+        stageLines.add(lFIS);
     }
 }

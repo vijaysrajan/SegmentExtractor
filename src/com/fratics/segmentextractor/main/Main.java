@@ -2,7 +2,8 @@ package com.fratics.segmentextractor.main;
 
 import com.fratics.segmentextractor.json.GenerateJson;
 import com.fratics.segmentextractor.process.Context;
-import com.fratics.segmentextractor.process.SegmentProcessor;
+import com.fratics.segmentextractor.process.SegmentProcessor1stStage;
+import com.fratics.segmentextractor.process.SegmentProcessorStage2Onwards;
 import com.fratics.segmentextractor.process.UpdateRootMetric;
 import com.fratics.segmentextractor.util.Constants;
 
@@ -12,17 +13,10 @@ public class Main {
     public static void main(String[] args) {
         long milliSec1 = new Date().getTime();
         Context context = new Context();
-        /*
-        if (args.length < 1) {
-            //new AutoDetectDimension(context).doProcess();
-        } else {
-            context.candidateSet.add(args[0]);
-        }
-        */
-        new SegmentProcessor(context, Constants.STG_1_FILE).doProcess();
-        new SegmentProcessor(context, Constants.STG_2_FILE).doProcess();
-        new SegmentProcessor(context, Constants.STG_3_FILE).doProcess();
-        new SegmentProcessor(context, Constants.STG_4_FILE).doProcess();
+        new SegmentProcessor1stStage(context, Constants.STG_1_FILE, 1).doProcess();
+        new SegmentProcessorStage2Onwards(context, Constants.STG_2_FILE, 2).doProcess();
+        new SegmentProcessorStage2Onwards(context, Constants.STG_3_FILE, 3).doProcess();
+        new SegmentProcessorStage2Onwards(context, Constants.STG_4_FILE, 4).doProcess();
         new UpdateRootMetric(context).doProcess();
         new GenerateJson(context).doProcess();
         long milliSec2 = new Date().getTime();

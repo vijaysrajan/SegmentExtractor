@@ -14,104 +14,6 @@ public class Tree {
         rootNode = dn;
     }
 
-    public void addNodeToChild(DimensionNode child, ValueNode parent) throws Exception {
-        if (rootNode == null) {
-            rootNode = child;
-            return;
-        }
-        if (parent == null) {
-            throw new Exception("The parent Value JacksonGenExample is null");
-        }
-        parent.addDimChild(child);
-    }
-
-
-    public void traverseDimensionLink(DimensionNode dn, String ancestry) {
-        if (dn.getValChildren().isEmpty()) {
-            System.out.println(ancestry + dn.getDimensionName());
-        }
-        ListIterator<ValueNode> listIterator = dn.getValChildren().listIterator();
-        while (listIterator.hasNext()) {
-            ValueNode vn = listIterator.next();
-            StringBuilder sb = new StringBuilder();
-            sb.append(ancestry);
-            //sb.append("->");
-            sb.append(dn.getDimensionName());
-            sb.append("->");
-            traverseValueLink(vn, sb.toString());
-        }
-    }
-
-
-    public void traverseValueLink(ValueNode vn, String ancestry) {
-        if (vn.getDimChildren().isEmpty()) {
-            System.out.println(ancestry + vn.getValueName());
-        }
-        ListIterator<DimensionNode> listIterator = vn.getDimChildren().listIterator();
-        while (listIterator.hasNext()) {
-            DimensionNode dn = listIterator.next();
-            StringBuilder sb = new StringBuilder();
-            sb.append(ancestry);
-            //sb.append("->");
-            sb.append(vn.getValueName());
-            sb.append("->");
-            traverseDimensionLink(dn, sb.toString());
-
-        }
-    }
-
-    public String traverseDimensionJSon(DimensionNode dn) {
-
-        StringBuilder sb = new StringBuilder();
-        sb.append("{");
-        sb.append("name : \"");
-        sb.append(dn.getDimensionName());
-        sb.append("\"");
-        if (dn.getValChildren().isEmpty()) {
-            sb.append("}");
-            return sb.toString();
-        }
-        sb.append(", values :");
-        sb.append("[");
-        ListIterator<ValueNode> listIterator = dn.getValChildren().listIterator();
-        while (listIterator.hasNext()) {
-            ValueNode vn = listIterator.next();
-            //sb.append("{");
-            sb.append(traverseValueJSon(vn));
-            sb.append(",");
-        }
-        sb.append("]");
-        sb.append("}");
-        return sb.toString();
-    }
-
-
-    public String traverseValueJSon(ValueNode vn) {
-
-        StringBuilder sb = new StringBuilder();
-        sb.append("{");
-        sb.append("name : \"");
-        sb.append(vn.getValueName());
-        sb.append("\"");
-        if (vn.getDimChildren().isEmpty()) {
-            sb.append("}");
-            return sb.toString();
-        }
-        sb.append(",dimensions :");
-        sb.append("[");
-        ListIterator<DimensionNode> listIterator = vn.getDimChildren().listIterator();
-        while (listIterator.hasNext()) {
-            DimensionNode dn = listIterator.next();
-            //sb.append("{");
-            sb.append(traverseDimensionJSon(dn));
-            sb.append(",");
-        }
-        sb.append("]");
-        sb.append("}");
-        return sb.toString();
-    }
-
-
     public static void main(String[] args) throws Exception {
         //DimensionNode ( int stage, String dimName, double totalMetric)
         //ValueNode (String valName, int stage, double totalAgg, String full)
@@ -178,6 +80,100 @@ public class Tree {
 
         //t.traverseDimensionLink(si, "");
         System.out.println(t.traverseDimensionJSon(si));
+    }
+
+    public void addNodeToChild(DimensionNode child, ValueNode parent) throws Exception {
+        if (rootNode == null) {
+            rootNode = child;
+            return;
+        }
+        if (parent == null) {
+            throw new Exception("The parent Value JacksonGenExample is null");
+        }
+        parent.addDimChild(child);
+    }
+
+    public void traverseDimensionLink(DimensionNode dn, String ancestry) {
+        if (dn.getValChildren().isEmpty()) {
+            System.out.println(ancestry + dn.getDimensionName());
+        }
+        ListIterator<ValueNode> listIterator = dn.getValChildren().listIterator();
+        while (listIterator.hasNext()) {
+            ValueNode vn = listIterator.next();
+            StringBuilder sb = new StringBuilder();
+            sb.append(ancestry);
+            //sb.append("->");
+            sb.append(dn.getDimensionName());
+            sb.append("->");
+            traverseValueLink(vn, sb.toString());
+        }
+    }
+
+    public void traverseValueLink(ValueNode vn, String ancestry) {
+        if (vn.getDimChildren().isEmpty()) {
+            System.out.println(ancestry + vn.getValueName());
+        }
+        ListIterator<DimensionNode> listIterator = vn.getDimChildren().listIterator();
+        while (listIterator.hasNext()) {
+            DimensionNode dn = listIterator.next();
+            StringBuilder sb = new StringBuilder();
+            sb.append(ancestry);
+            //sb.append("->");
+            sb.append(vn.getValueName());
+            sb.append("->");
+            traverseDimensionLink(dn, sb.toString());
+
+        }
+    }
+
+    public String traverseDimensionJSon(DimensionNode dn) {
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("{");
+        sb.append("name : \"");
+        sb.append(dn.getDimensionName());
+        sb.append("\"");
+        if (dn.getValChildren().isEmpty()) {
+            sb.append("}");
+            return sb.toString();
+        }
+        sb.append(", values :");
+        sb.append("[");
+        ListIterator<ValueNode> listIterator = dn.getValChildren().listIterator();
+        while (listIterator.hasNext()) {
+            ValueNode vn = listIterator.next();
+            //sb.append("{");
+            sb.append(traverseValueJSon(vn));
+            sb.append(",");
+        }
+        sb.append("]");
+        sb.append("}");
+        return sb.toString();
+    }
+
+    public String traverseValueJSon(ValueNode vn) {
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("{");
+        sb.append("name : \"");
+        sb.append(vn.getValueName());
+        sb.append("\"");
+        if (vn.getDimChildren().isEmpty()) {
+            sb.append("}");
+            return sb.toString();
+        }
+        sb.append(",dimensions :");
+        sb.append("[");
+        ListIterator<DimensionNode> listIterator = vn.getDimChildren().listIterator();
+        while (listIterator.hasNext()) {
+            DimensionNode dn = listIterator.next();
+            //sb.append("{");
+            sb.append(traverseDimensionJSon(dn));
+            sb.append(",");
+        }
+        sb.append("]");
+        sb.append("}");
+        return sb.toString();
     }
 
 

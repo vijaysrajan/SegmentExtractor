@@ -1,18 +1,22 @@
 package com.fratics.segmentextractor.process;
 
+import com.fratics.segmentextractor.json.Value;
 import com.fratics.segmentextractor.util.Constants;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.util.ArrayList;
 
-public class SegmentProcessor extends Processable {
+public class SegmentProcessor1stStage extends Processable {
 
     private String stageFile;
+    private int stage;
 
-    public SegmentProcessor(Context context, String stageFile) {
+    public SegmentProcessor1stStage(Context context, String stageFile, int stage) {
         this.context = context;
         this.stageFile = stageFile;
+        this.stage = stage;
     }
 
     public void doProcess() {
@@ -22,11 +26,14 @@ public class SegmentProcessor extends Processable {
             double currValue = 0.0;
             String s;
             //System.err.println(context.candidateSet);
-            super.getCurrentValue();
             BufferedReader reader = new BufferedReader(new FileReader(new File(Constants.DATA_DIR + "/" + stageFile)));
             while ((s = reader.readLine()) != null) {
+
+                ArrayList<String> candidateSet = new ArrayList<>();
+                Value v = context.rootNode;
+
                 boolean candidateFound = true;
-                for (String candidate : context.candidateSet) {
+                for (String candidate : candidateSet) {
                     if (!s.contains(candidate)) {
                         candidateFound = false;
                         break;
@@ -37,24 +44,22 @@ public class SegmentProcessor extends Processable {
                 String[] str = s.split(Constants.METRIC_SEPERATOR);
                 String[] str1 = str[1].split(Constants.FIELD_SEPERATOR);
 
+
                 try {
                     currValue = Double.parseDouble(str1[1]);
                 } catch (NumberFormatException e) {
+                    currValue = 0;
                 }
 
-                addLineToJson(str[0], currValue);
+                addLineToJson(str[0], currValue, candidateSet, v);
 
-                if (currValue > tmpValue) {
-                    tmpValue = currValue;
-                    lineStore = str[0];
-                } else {
-                    currValue = 0.0;
-                }
             }
+
             reader.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
-        updateCandidates(lineStore);
+        pruneUpdateCandidates(new ArrayList<String>(), context.rootNode);
+        //System.err.println(context.currValueStores);
     }
 }

@@ -22,6 +22,35 @@ public class StageFileFISInjector {
         stageFileBufferedReader = new BufferedReader(new FileReader(fileName));
     }
 
+    public static void main(String[] args) throws Exception {
+
+        StageFileFISInjector sf = new StageFileFISInjector(args[1], 1);
+        sf.injectLines0(args[0]);
+        //sf.getCandidateTable().printTable();
+        sf.getCandidateTable().scanAndCleanTableForSpecifiedStage(1);
+        //sf.getCandidateTable().printTable();
+
+        sf.openNewStageFile(2, args[2]);
+        sf.injectLines1(args[0]);
+        //System.out.println("-----------");
+        System.out.flush();
+        sf.getCandidateTable().scanAndCleanTableForSpecifiedStage(2);
+        //sf.getCandidateTable().printTable();
+
+        sf.openNewStageFile(3, args[3]);
+        sf.injectLines1(args[0]);
+        //System.out.println("-----------");
+        sf.getCandidateTable().scanAndCleanTableForSpecifiedStage(3);
+        //sf.getCandidateTable().printTable();
+
+        sf.openNewStageFile(4, args[4]);
+        sf.injectLines1(args[0]);
+        //System.out.println("-----------");
+        sf.getCandidateTable().scanAndCleanTableForSpecifiedStage(4);
+        sf.getCandidateTable().printTable();
+
+    }
+
     public void openNewStageFile(int stg, String fileName) throws Exception {
         this.setStageNum(stg);
         stageFileBufferedReader.close();
@@ -81,35 +110,6 @@ public class StageFileFISInjector {
         } catch (Exception e) {
 
         }
-    }
-
-    public static void main(String[] args) throws Exception {
-
-        StageFileFISInjector sf = new StageFileFISInjector(args[1], 1);
-        sf.injectLines0(args[0]);
-        //sf.getCandidateTable().printTable();
-        sf.getCandidateTable().scanAndCleanTableForSpecifiedStage(1);
-        //sf.getCandidateTable().printTable();
-
-        sf.openNewStageFile(2, args[2]);
-        sf.injectLines1(args[0]);
-        //System.out.println("-----------");
-        System.out.flush();
-        sf.getCandidateTable().scanAndCleanTableForSpecifiedStage(2);
-        //sf.getCandidateTable().printTable();
-
-        sf.openNewStageFile(3, args[3]);
-        sf.injectLines1(args[0]);
-        //System.out.println("-----------");
-        sf.getCandidateTable().scanAndCleanTableForSpecifiedStage(3);
-        //sf.getCandidateTable().printTable();
-
-        sf.openNewStageFile(4, args[4]);
-        sf.injectLines1(args[0]);
-        //System.out.println("-----------");
-        sf.getCandidateTable().scanAndCleanTableForSpecifiedStage(4);
-        sf.getCandidateTable().printTable();
-
     }
 
 }

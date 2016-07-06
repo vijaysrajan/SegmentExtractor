@@ -21,13 +21,6 @@ public class LineFIS {
         stringRepDimVal(dvArr);
     }
 
-    private void stringRepDimVal(DimVal[] dvArr) {
-        strRepDimVal = new String[dvArr.length];
-        for (int i = 0; i < dvArr.length; i++) {
-            strRepDimVal[i] = dvArr[i].toString();
-        }
-    }
-
     public LineFIS(String line) throws Exception {
         if (line.equals("") == true) {
             stageNum = 0;
@@ -82,27 +75,6 @@ public class LineFIS {
 
     }
 
-
-    public Metric[] getMetricNameAndValueArray() {
-        return metricNameAndValueArray;
-    }
-
-    public int getStageNum() {
-        return stageNum;
-    }
-
-    public void setStageNum(int stageNum) {
-        this.stageNum = stageNum;
-    }
-
-
-    public String[] getAllDimVal() {
-        if (strRepDimVal == null) {
-            return new String[0];
-        }
-        return strRepDimVal;
-    }
-
     private static String[] splitBySeparator(String str, int expectedArraySize, String exactAtLeastAtMost, String separator) throws Exception {
         //String separator = Character.toString('\004');
         //String separator = Character.toString('\003');
@@ -137,6 +109,31 @@ public class LineFIS {
         return ret;
     }
 
+    private void stringRepDimVal(DimVal[] dvArr) {
+        strRepDimVal = new String[dvArr.length];
+        for (int i = 0; i < dvArr.length; i++) {
+            strRepDimVal[i] = dvArr[i].toString();
+        }
+    }
+
+    public Metric[] getMetricNameAndValueArray() {
+        return metricNameAndValueArray;
+    }
+
+    public int getStageNum() {
+        return stageNum;
+    }
+
+    public void setStageNum(int stageNum) {
+        this.stageNum = stageNum;
+    }
+
+    public String[] getAllDimVal() {
+        if (strRepDimVal == null) {
+            return new String[0];
+        }
+        return strRepDimVal;
+    }
 
     public boolean isSubLineInLine(LineFIS subLine) {
         int myLineLength = strRepDimVal.length;

@@ -4,50 +4,63 @@ import com.fratics.segmentextractor.json.Dimension;
 import com.fratics.segmentextractor.json.Value;
 import com.fratics.segmentextractor.util.Constants;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Set;
 
 public abstract class Processable {
 
     protected Context context;
-    private Value currentValue = null;
 
-    public void updateCandidates(String line) {
-        String[] str = line.split(Constants.STG_SEPERATOR)[1].split(Constants.CAND_SEPERATOR);
-        for (String s : str) {
-            String[] cand = s.split(Constants.FIELD_SEPERATOR);
-            if (!context.candidateSet.contains(cand[0])) {
-                context.candidateSet.add(cand[0]);
+    public void pruneUpdateCandidates(ArrayList<String> candidateSet, Value currentValue) {
+
+        String highestKey = null;
+        double highestValue = 0;
+        Dimension d = null;
+        //System.err.println("Value :: " + currentValue);
+        if (currentValue.dimensions == null) return;
+        Set<String> set = currentValue.dimensions.keySet();
+
+        //Finding the Highest Key
+        for (String s : set) {
+            if (currentValue.dimensions.get(s).metric > highestValue) {
+                highestValue = currentValue.dimensions.get(s).metric;
+                d = currentValue.dimensions.get(s);
+                highestKey = s;
             }
-            if (!context.candidateSet.contains(cand[1])) {
-                context.candidateSet.add(cand[1]);
+        }
+
+        //Removing all the other keys.
+        currentValue.dimensions.clear();
+        currentValue.dimensions.put(highestKey, d);
+
+        Set<String> set2 = d.values.keySet();
+
+        for (String s : set2) {
+            //Root Stage.
+            if (candidateSet.isEmpty()) {
+                ValueStore x = new ValueStore();
+                x.candidateSet.add(highestKey);
+                x.candidateSet.add(s);
+                x.value = d.values.get(s);
+                context.currValueStores.add(x);
+            } else {
+                ValueStore x = new ValueStore();
+                x.candidateSet.addAll(candidateSet);
+                x.candidateSet.add(highestKey);
+                x.candidateSet.add(s);
+                x.value = d.values.get(s);
+                context.currValueStores.add(x);
             }
         }
     }
 
-    public void getCurrentValue() {
 
-        if (context.rootNode.dimensions == null) {
-            currentValue = context.rootNode;
-        } else {
-            int i = 0;
-            Dimension d = null;
-            Value v = context.rootNode;
-            for (String s : context.candidateSet) {
-                if (i % 2 == 0)
-                    d = v.dimensions.get(s);
-                else
-                    v = d.values.get(s);
-                i++;
-            }
-            currentValue = v;
-        }
-    }
-
-    public void addLineToJson(String line, double metric) {
+    public void addLineToJson(String line, double metric, ArrayList<String> candidateSet, Value currentValue) {
         String[] str = line.split(Constants.STG_SEPERATOR)[1].split(Constants.CAND_SEPERATOR);
         for (String s : str) {
             String[] cand = s.split(Constants.FIELD_SEPERATOR);
-            if (!context.candidateSet.contains(cand[0])) {
+            if (!candidateSet.contains(cand[0])) {
                 Value v = new Value();
                 //v.valueName = cand[1];
                 v.metric = metric;
