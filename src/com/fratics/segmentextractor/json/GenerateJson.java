@@ -10,9 +10,11 @@ import com.fratics.segmentextractor.util.Constants;
 import java.io.File;
 
 public class GenerateJson extends Processable {
+    private String fileName;
 
-    public GenerateJson(Context context) {
+    public GenerateJson(Context context, String fileName) {
         this.context = context;
+        this.fileName = fileName;
     }
 
     public void doProcess() {
@@ -21,7 +23,7 @@ public class GenerateJson extends Processable {
             //objectMapper.configure(SerializationFeature.FAIL_ON_EMPTY_BEANS, true);
             objectMapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
             objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
-            objectMapper.writeValue(new File(Constants.DATA_DIR + "/" + context.get("jsonfile")), context.rootNode);
+            objectMapper.writeValue(new File(Constants.DATA_DIR + "/" + fileName), context.rootNode);
         } catch (Exception e) {
             e.printStackTrace();
         }

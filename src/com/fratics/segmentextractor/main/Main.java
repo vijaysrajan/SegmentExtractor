@@ -18,8 +18,7 @@ public class Main {
         new SegmentProcessorStage2Onwards(context, Constants.STG_3_FILE, 3).doProcess();
         new SegmentProcessorStage2Onwards(context, Constants.STG_4_FILE, 4).doProcess();
         new UpdateRootMetric(context).doProcess();
-        context.put("jsonfile", Constants.JSON_OUTPUT);
-        new GenerateJson(context).doProcess();
+        new GenerateJson(context, Constants.JSON_OUTPUT).doProcess();
         long milliSec2 = new Date().getTime();
         System.err.println("Completed Json Generation in :" + (milliSec2 - milliSec1) + "ms ..Check Result in Data Folder");
     }
