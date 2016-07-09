@@ -11,7 +11,8 @@ public class UpdateRootMetric extends Processable {
     public void doProcess() {
         double value = 0.0;
         for (Dimension d : context.rootNode.dimensions.values()) {
-            value += d.metric;
+            if(value < d.metric)
+            	value = d.metric;
         }
         context.rootNode.metric = value;
     }

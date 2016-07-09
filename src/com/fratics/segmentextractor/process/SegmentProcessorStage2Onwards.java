@@ -20,9 +20,7 @@ public class SegmentProcessorStage2Onwards extends Processable {
     }
 
     public void doProcess() {
-        String lineStore = "";
         try {
-            double tmpValue = 0.0;
             double currValue = 0.0;
             String s;
             //System.err.println(context.candidateSet);
