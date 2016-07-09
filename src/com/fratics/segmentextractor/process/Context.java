@@ -10,7 +10,7 @@ public class Context {
     public ArrayList<ValueStore> prevValueStores = new ArrayList<ValueStore>();
     public ArrayList<ValueStore> currValueStores = new ArrayList<ValueStore>();
     public Value rootNode = new Value();
-    private HashMap<String, Object> store = new HashMap<String, Object>();
+    private HashMap<String, String> store = new HashMap<String, String>();
 
     public Context() {
         //rootNode.valueName = "Root";
@@ -21,11 +21,11 @@ public class Context {
         currValueStores = new ArrayList<ValueStore>();
     }
 
-    public void put(String s, Object o) {
+    public void put(String s, String o) {
         store.put(s, o);
     }
 
-    public Object get(String s) {
+    public String get(String s) {
         return store.get(s);
     }
 }

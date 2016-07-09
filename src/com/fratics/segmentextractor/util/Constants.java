@@ -11,5 +11,7 @@ public class Constants {
     public static String STG_SEPERATOR = Character.toString('\004');
     public static String CAND_SEPERATOR = Character.toString('\001');
     public static String JSON_OUTPUT = "Segments.json";
+    public static String JSON_OUTPUT2 = "AllSegments.json";
+
 
 }

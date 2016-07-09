@@ -21,7 +21,7 @@ public class GenerateJson extends Processable {
             //objectMapper.configure(SerializationFeature.FAIL_ON_EMPTY_BEANS, true);
             objectMapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
             objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
-            objectMapper.writeValue(new File(Constants.DATA_DIR + "/" + Constants.JSON_OUTPUT), context.rootNode);
+            objectMapper.writeValue(new File(Constants.DATA_DIR + "/" + context.get("jsonfile")), context.rootNode);
         } catch (Exception e) {
             e.printStackTrace();
         }
